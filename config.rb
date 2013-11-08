@@ -70,3 +70,10 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.remote = "https://github.com/TransformationToolContest/TransformationToolContest.github.io.git"
+  deploy.branch = "master"
+end
