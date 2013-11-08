@@ -16,3 +16,19 @@ body {
 .navbar img {
   height: 32px;
 }
+
+// Make a bit of space around logo
+img#logo {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+// Don't use bulleted lists on People page
+ul.people {
+  list-style-type: none;
+  padding-left: 5px;
+  
+  li {
+    margin-bottom: 0.75em;
+  }
+}
