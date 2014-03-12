@@ -8,6 +8,10 @@ body {
   padding-top: 50px;
 }
 
+body:last-child {
+  margin-bottom: 10%;
+}
+
 // Fix icons in navbar to be less padded, but larger
 .navbar-right li a {
   padding: 8px;
