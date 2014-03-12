@@ -9,7 +9,7 @@ Part of STAF 2014 (https://www.cs.york.ac.uk/staf/)
 
 ** Call for Solutions **
 
-The 2014 Transformation Tool Contest (TTC) seeks your solutions to two challenging transformation problems, involving transformation financial XML models into object-oriented code, and transforming the very large model that underpins the IMDb movie database. 
+The 2014 Transformation Tool Contest (TTC) seeks your solutions to two challenging transformation problems, involving transforming financial XML models into object-oriented code, and transforming the very large model that underpins the IMDb movie database. 
 
 Select your favourite transformation tool and join the contest! The deadline for solution descriptions is 23 April 2014. More information, including links to the problem descriptions, below and on our website at: http://www.transformation-tool-contest.eu/cfs.html
 
