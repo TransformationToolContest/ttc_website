@@ -1,0 +1,55 @@
+7th Transformation Tool Contest 2014.
+
+http://www.transformation-tool-contest.eu
+
+25th July 2014
+York, United Kingdom.
+
+Part of STAF 2014 (https://www.cs.york.ac.uk/staf/)
+
+** Call for Solutions **
+
+The 2014 Transformation Tool Contest (TTC) seeks your solutions to two challenging transformation problems, involving transformation financial XML models into object-oriented code, and transforming the very large model that underpins the IMDb movie database. 
+
+Select your favourite transformation tool and join the contest! The deadline for solution descriptions is 23 April 2014. More information, including links to the problem descriptions, below and on our website at: http://www.transformation-tool-contest.eu/cfs.html
+
+      
+1. About TTC
+
+The aim of this event is to compare the expressiveness, the usability and the performance of graph and model transformation tools along a number of selected case studies. A deeper understanding of the relative merits of different tool features will help to further improve graph and model transformation tools and to indicate open problems.
+
+This contest is the seventh of its kind (after an AGTiVE 2007 session, as GraBaTs 2008 and 2009 workshops, and the TTC 2010, 2011 and 2013 workshops). For the second time, the contest is co-located with several leading software engineering conferences as part of the Software Technologies: Applications and Foundations (STAF) federation (http://www.cs.york.ac.uk/staf). Teams from the major international research groups in the development and use of model transformation tools are expected to participate in the TTC again. 
+
+
+2. Participating in the Contest
+
+The following two challenging case studies have been selected:
+
+* The FIXML to Java, C# and C++ Case, by Kevin Lano, Sobhan Yassipour-Tehrani, and Krikor Maroukian (https://github.com/transformationtoolcontest/ttc2014-fixml)
+
+* The Movie Database Case, by Tassilo Horn, Christian Krause and Matthias Tichy (https://github.com/ckrause/ttc2014-imdb)
+  
+The case description, supporting resources, and discussion between solution developers are hosted at the Github repositories linked to above.
+  
+If you would like to participate in the contest, you are now asked to choose one or more case studies, take your favourite transformation tool and submit your solutions. A submission should consist of a paper and the actual solution (i.e., programs, models, etc.). The paper should include a description of the chosen case study variant (if any) and a presentation of the chosen solution, including a discussion of design decisions. Examples can be explored at the TTC 2013 website (http://planet-sl.org/ttc2013/).
+
+Solutions should be submitted via Easychair by 23 April 2014. Before the same deadline, each case study solution (tool, project files, documentation) should be made available for review and demonstration via SHARE. For submissions via Easychair, sign-up and instructions to SHARE, please visit:
+
+* Easychair submission page: http://www.easychair.org/conferences?conf=ttc2014
+* SHARE sign-up: http://is.tm.tue.nl/staff/pvgorp/share/?page=Signup&bundlename=TTC14
+* SHARE wiki: http://fmt.cs.utwente.nl/redmine/wiki/grabats/SHARE
+
+Immediately after the submission deadline, please note solution developers will be asked to participant in a round of open review of other solutions. Therefore, we ask that all solution developers are available in the period 23 Apr 2014 to 07 May 2014 to participate in these discussions.
+
+Besides the presentations of the submitted solutions, the workshop held on the 25 Jul 2014 in York (United Kingdom) will comprise a live contest: an additional transformation case that will not be announced until a few days before the workshop. There will be dedicated hackspace during the week of STAF for solution developers wishing to work on the live contest.
+
+
+3. Publication Procedure
+
+For TTC 2014 there will be three more or less formal publication opportunities:
+
+* The informal pre-proceedings will appear on the TTC website. They contain the descriptions of the accepted cases and all the solution papers.
+    
+* After the workshop there will be more formal workshop proceedings. Solution submitters have to consider and address the opponents' statements. The resulting solution papers will be reviewed by the TTC program committee. A selection of revised solution papers together with the case descriptions will be published in the workshop proceedings which are currently planned to appear in WS-CEUR.
+
+* Past editions of TTC have often resulted in one journal publication per case. Those articles have introduced the case and compare the solutions from a high-level perspective. Also the results of the evaluation sheets filled in during the workshop will be considered. These articles were compiled and edited by the case submitters together with the workshop organizers. We anticipate interest in similar efforts following the 2014 edition of the workshop
