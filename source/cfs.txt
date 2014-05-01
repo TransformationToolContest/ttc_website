@@ -37,7 +37,7 @@ Solutions should be submitted via Easychair by 30 April 2014. Before the same de
 
 * Easychair submission page: http://www.easychair.org/conferences?conf=ttc2014
 * SHARE sign-up: http://is.tm.tue.nl/staff/pvgorp/share/?page=Signup&bundlename=TTC14
-* SHARE wiki: http://fmt.cs.utwente.nl/redmine/wiki/grabats/SHARE
+* SHARE wiki: https://fmt.ewi.utwente.nl/redmine/projects/grabats/wiki
 
 Immediately after the submission deadline, please note solution developers will be asked to participant in a round of open review of other solutions. Therefore, we ask that all solution developers are available in the period 30 Apr 2014 to 07 May 2014 to participate in these discussions.
 
