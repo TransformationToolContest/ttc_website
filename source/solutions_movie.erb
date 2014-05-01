@@ -1,0 +1,46 @@
+<div class="container">
+  
+  <div class="row">
+    <div class="col-md-8">
+  
+      <h3>Solutions to the Movie Database Case</h3>
+      <% solutions = data.solutions_movie  %>
+
+      <p>The following <%=solutions.size%> solutions were submitted for the <a href="https://github.com/ckrause/ttc2014-imdb">Movie Database case</a>.</p>
+      
+      <p>Please submit your assessment of a solution by completing the <a href="https://docs.google.com/forms/d/1cXRx5MU8L4bCRVExj709XP-8oxa6f4hQR2Zw88zqKD0/viewform?usp=send_form">Movie Database open review form</a>.</p>
+      
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Authors</th>
+            <th>Artefacts</th>
+            <th>Opponents</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% solutions.each_with_index do |solution, index| %>
+            <tr>
+              <td><strong><%=solution.tool%></strong></td>
+              <td><%=solution.authors%></td>
+              <td>
+                <a href="/solutions/fixml/ttc2014_submission_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
+                
+                <% if solution.share.empty? %>
+                  <strong>No SHARE demo</strong>
+                <% else %>
+                  <a href="<%=solution.share%>">SHARE Demo</a>
+                <% end %>
+              </td>
+              <td>
+                <%=solutions[(index - 2) % solutions.length].authors%><br/>
+                <%=solutions[(index - 1) % solutions.length].authors%>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
