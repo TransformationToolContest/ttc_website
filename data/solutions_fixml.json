@@ -20,13 +20,13 @@
   {
 		"tool" : "HenshinTGG",
 		"authors" : "Frank Hermann et al.",
-		"share" : "",
+		"share" : "http://share20.eu/?page=ConfigureNewSession&vdi=Ubuntu12LTS_TTC14_64bit_HenshinTGG.vdi",
     "pdf" : 9
 	},
   {
 		"tool" : "Rascal",
 		"authors" : "Pablo Inostroza et al.",
-		"share" : "",
+		"share" : "http://share20.eu/?page=ConfigureNewSession&vdi=Ubuntu12LTS_TTC14_64bit_rascal.vdi",
     "pdf" : 11
 	},
   {
@@ -44,7 +44,7 @@
   {
 		"tool" : "eMoflon",
 		"authors" : "Geza Kulcsar et al.",
-		"share" : "",
+		"share" : "http://share20.eu/?page=ConfigureNewSession&vdi=XP-TUe_TGG-Comparison_eMoflon_08_05_2013_TTC14_eMoflon_FIXML.vdi",
     "pdf" : 18
 	},
   {

@@ -20,13 +20,13 @@
   {
 		"tool" : "Rascal",
 		"authors" : "Pablo Inostroza et al.",
-		"share" : "",
+		"share" : "http://share20.eu/?page=ConfigureNewSession&vdi=Ubuntu12LTS_TTC14_64bit_rascal.vdi",
     "pdf" : 10
 	},
   {
 		"tool" : "QVTo",
 		"authors" : "Christopher Gerking et al.",
-		"share" : "",
+		"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=Ubuntu12LTS_TTC14_64bit_QVTo.vdi",
     "pdf" : 13
 	},
   {
@@ -44,7 +44,7 @@
   {
 		"tool" : "GrGen.NET",
 		"authors" : "Edgar Jakumeit",
-		"share" : "",
+		"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=Ubuntu12LTS_TTC14_64bit_grgen.vdi",
     "pdf" : 17
 	},
   {
