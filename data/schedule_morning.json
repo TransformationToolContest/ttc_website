@@ -1,0 +1,54 @@
+[
+  {
+		"time" : "9.15",
+		"fixml" : 0,
+		"movie" : 4
+	},
+  {
+		"time" : "9.30",
+		"fixml" : 1,
+		"movie" : 5
+	},
+  {
+		"time" : "9.45",
+		"fixml" : 2,
+		"movie" : 6
+	},
+  {
+		"time" : "10.00",
+		"fixml" : 3,
+		"movie" : 7
+	},
+  {
+		"time" : "10.15",
+		"fixml" : 4,
+		"movie" : 8
+	},
+  {
+		"time" : "10.30"
+	},
+  {
+		"time" : "11.00",
+		"fixml" : 5,
+		"movie" : 0
+	},
+  {
+		"time" : "11.15",
+		"fixml" : 6,
+		"movie" : 1
+	},
+  {
+		"time" : "11.45",
+		"fixml" : 7,
+		"movie" : 2
+	},
+  {
+		"time" : "12.00",
+		"fixml" : 8,
+		"movie" : 3
+	},
+  {
+		"time" : "12.15",
+		"fixml" : 9
+  }
+]
