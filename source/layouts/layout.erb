@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Transformation Tool Contest (TTC) 2015</title>
-    
+
     <meta charset="utf-8">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -28,7 +28,7 @@
             <span class="icon-bar"></span>
           </button>
           </div>
-          
+
           <div class="collapse navbar-collapse">
             <ul id="navigation" class="nav navbar-nav">
               <li id="index"><%= link_to 'News', '/index.html' %></li>
@@ -44,8 +44,8 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Calls<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><%= link_to 'Call for Cases', '/cfc.html' %></li>
-                  <!-- <li><%= link_to 'Call for Solutions', '/cfs.html' %></li> -->
+                  <li><a href="#">Call for Cases (Closed)</a></li>
+                  <li><%= link_to 'Call for Solutions', '/cfs.html' %></li>
                 </ul>
               </li>
               <li id="aims_and_scope"><%= link_to 'Aims and scope', '/aims_and_scope.html' %></li>
@@ -69,8 +69,8 @@
           </div><!-- /.navbar-collapse -->
         </div>
       </div>
-    
+
     <%=yield%>
-    
+
   </body>
 </html>
