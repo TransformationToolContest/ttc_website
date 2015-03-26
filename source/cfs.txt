@@ -32,7 +32,7 @@ The following two challenging case studies have been selected:
 (https://code.google.com/a/eclipselabs.org/p/moliz/source/browse/?repo=ttc2015)
 
 * The Java Refactoring Case - by Geza Kulcsar, Sven Peldszus and Malte Lochau
-(TBA)
+(https://github.com/Echtzeitsysteme/java-refactoring-ttc)
 
 The case description, supporting resources, and discussion between solution developers are hosted at the repositories linked to above. **Please note** that these repositories are in draft form until 2nd April: you can expect to see some small changes to the cases until then.
 
