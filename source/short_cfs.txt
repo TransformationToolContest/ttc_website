@@ -1,3 +1,0 @@
-The 2014 Transformation Tool Contest (TTC) seeks your solutions to two challenging transformation problems, involving transforming financial XML models into object-oriented code, and transforming the very large model that underpins the IMDb movie database. 
-
-Select your favourite transformation tool and join the contest! The deadline for solution descriptions is 30 April 2014. More information, including links to the problem descriptions, at: http://www.transformation-tool-contest.eu/cfs.html
