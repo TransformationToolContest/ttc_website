@@ -1,5 +1,3 @@
-#ruby=ruby-2.1.1
-ruby '2.1.1'
 source 'https://rubygems.org'
 
 gem "middleman", "~> 3.2.0"
