@@ -1,0 +1,127 @@
+<div class="container">
+  
+  <div class="row">
+    <div class="col-md-12">
+  
+      <h3>Solutions to the Model Execution Case</h3>
+      <% solutions = data.solutions_execution  %>
+      
+      Case resources:
+      <ul>
+        <li><a href="https://code.google.com/a/eclipselabs.org/p/moliz/source/browse/?repo=ttc2015">Description and case resources</a> (Github repository)</li>
+        <li><a href="https://groups.google.com/forum/#!forum/ttc2015exe">Discussion of solutions and open peer reviews</a> (Google Group)</li>
+        <li><a href="#">Scoresheet for judging of solutions</a> (Google Form)</li>
+      </ul>
+
+      <p>The following <%=solutions.size%> solutions were submitted for the Model Execution case</a>.</p>
+      
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <!-- <th>
+              Presentation<br/>
+            </th> -->
+            <th>Tool</th>
+            <th>Authors</th>
+            <th>Artefacts</th>
+            <th>Opponents</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% solutions.each_with_index do |solution, index| %>
+            <tr>
+              <!-- <td>
+                <% slot = data.schedule_morning.find { |slot| slot.fixml == index } %>
+                <%= slot.time %>
+              </td> -->
+              <td><strong><%=solution.tool%></strong></td>
+              <td><%=solution.authors%></td>
+              <td>
+                <a href="/solutions/fixml/ttc2014_submission_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
+                
+                <% if solution.share.empty? %>
+                  <strong>No SHARE demo</strong>
+                <% else %>
+                  <a href="<%=solution.share%>">SHARE Demo</a>
+                <% end %>
+              </td>
+              <td>
+                <!-- <%=solutions[(index - 2) % solutions.length].authors%><br/>
+                <%=solutions[(index - 1) % solutions.length].authors%> -->
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+      
+      <!-- <h3>Awards</h3>
+      The <a href="https://docs.google.com/spreadsheets/d/1dusXx-tfwQuWT05S7rtqedUu2C-w_NND4yC79ePUQ9o/edit?usp=sharing">live scoring</a> of the 2014 FIXML case resulted in the awards shown below. -->
+    </div>
+  </div>
+  
+  <!-- <div class="row">
+    <div class="col-md-12"> 
+      <h4>Overall Winner</h4>
+    </div>
+    
+    <div class="col-md-3">
+        <a href="images/awards/fixml/sdmlib_henshin_overall.jpg" class="thumbnail">
+          <img src="images/awards/fixml/sdmlib_henshin_overall.jpg">
+        </a>
+        <div class="caption">
+          <h6>1st: SDMLib / Henshin</h6>
+        </div>
+    </div>
+    
+    <div class="col-md-3">
+        <a href="images/awards/fixml/funnyqt_overall.jpg" class="thumbnail">
+          <img src="images/awards/fixml/funnyqt_overall.jpg">
+        </a>
+        <div class="caption">
+          <h6>2nd: FunnyQT</h6>
+        </div>
+    </div>
+    
+    <div class="col-md-3">
+        <a href="images/awards/fixml/sigma_overall.jpg" class="thumbnail">
+          <img src="images/awards/fixml/sigma_overall.jpg">
+        </a>
+        <div class="caption">
+          <h6>3rd: SIGMA</h6>
+        </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-12"> 
+      <h4>Categories</h4>
+    </div>
+    
+    <div class="col-md-3">
+        <a href="images/awards/fixml/epsilon_ease_of_use.jpg" class="thumbnail">
+          <img src="images/awards/fixml/epsilon_ease_of_use.jpg">
+        </a>
+        <div class="caption">
+          <h6>Easiest to Use: Epsilon</h6>
+        </div>
+    </div>
+    
+    <div class="col-md-3">
+        <a href="images/awards/fixml/sdmlib_complexity.jpg" class="thumbnail">
+          <img src="images/awards/fixml/sdmlib_complexity.jpg">
+        </a>
+        <div class="caption">
+          <h6>Least Complex: SDMLib</h6>
+        </div>
+    </div>
+    
+    <div class="col-md-3">
+        <a href="images/awards/fixml/funnyqt_accuracy.jpg" class="thumbnail">
+          <img src="images/awards/fixml/funnyqt_accuracy.jpg">
+        </a>
+        <div class="caption">
+          <h6>Most Accurate: FunnyQT</h6>
+        </div>
+    </div>
+  </div> -->
+</div>
