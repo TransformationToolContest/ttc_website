@@ -39,15 +39,14 @@
               <td>
                 <a href="/solutions/fixml/ttc2014_submission_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
                 
-                <% if solution.share.empty? %>
+                <% if solution.share.nil? %>
                   <strong>No SHARE demo</strong>
                 <% else %>
                   <a href="<%=solution.share%>">SHARE Demo</a>
                 <% end %>
               </td>
               <td>
-                <!-- <%=solutions[(index - 2) % solutions.length].authors%><br/>
-                <%=solutions[(index - 1) % solutions.length].authors%> -->
+                <%=solution.opponents.map { |index| solutions[index].authors }.join("<br/>")%>
               </td>
             </tr>
           <% end %>

@@ -1,8 +1,30 @@
 [
-  {
-		"tool" : "SAMPLE",
-		"authors" : "Joe Bloggs",
-		"share" : "http://share20.eu/",
-    "pdf" : 1
-	}
+    {
+	"tool" : "RACR",
+	"authors" : "Christoff Bürger",
+	"share" : null,
+	"pdf" : 10,
+	"opponents": [2,3]
+    },
+    {
+	"tool": "GEMOC Studio",
+	"authors": "Benoit Combemale et al.",
+	"share": null,
+	"pdf": 12,
+	"opponents": [0,3]
+    },
+    {
+	"tool" : "FunnyQT",
+	"authors" : "Tassilo Horn",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64-TTC15-FunnyQT.vdi",
+	"pdf" : 13,
+	"opponents": [0,1]
+    },
+    {
+	"tool": "SDMLib",
+	"authors": "Stefan Lindel, Albert Zuendorf",
+	"share": null,
+	"pdf": 18,
+	"opponents": [1,2]
+    }
 ]
