@@ -30,7 +30,7 @@
     {
 	"tool" : "SIGMA",
 	"authors" : "Filip Krikava",
-	"share" : null,
+	"share" : "http://share20.eu/?page=ConfigureNewSession&vdi=ArchLinux64-TTC15_SIGMA.vdi",
 	"pdf" : 22,
 	"opponents": [0,2]
     }
