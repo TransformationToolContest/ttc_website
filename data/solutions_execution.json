@@ -16,7 +16,7 @@
     {
 	"tool" : "FunnyQT",
 	"authors" : "Tassilo Horn",
-	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64-TTC15-FunnyQT.vdi",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_TTC15-FunnyQT.vdi",
 	"pdf" : 13,
 	"opponents": [0,1]
     },
