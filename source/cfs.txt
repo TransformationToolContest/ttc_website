@@ -2,7 +2,7 @@
 
 http://www.transformation-tool-contest.eu
 
-23rd July 2015
+24th July 2015
 l'Aquila, Italy.
 
 Part of STAF 2015 (http://www.disim.univaq.it/staf2015/)
@@ -48,7 +48,7 @@ Immediately after the submission deadline, please note solution developers will 
 
 Please note that solutions that are ultimately published in the post-proceedings will not exceed 5 pages and will be formatted using the EPTCS style (http://info.eptcs.org). There are no such page limit or formatting restrictions on the initial descriptions of a solution (i.e., the solutions submitted on 15th May).
 
-Besides the presentations of the submitted solutions, the contest held on the 23 Jul 2015 in l'Aquila (Italy) will comprise a live contest: an additional transformation case that will not be announced until a few days before the contest. There will be dedicated hackspace during the week of STAF for solution developers wishing to work on the live contest.
+Besides the presentations of the submitted solutions, the contest held on the 24 Jul 2015 in l'Aquila (Italy) will comprise a live contest: an additional transformation case that will not be announced until a few days before the contest. There will be dedicated hackspace during the week of STAF for solution developers wishing to work on the live contest.
 
 
 3. Publication Procedure
