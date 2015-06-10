@@ -9,21 +9,21 @@
     {
 	"tool": "Spoon",
 	"authors": "Gerard Paligot et al.",
-	"share": null,
+	"share": "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64-TTC15_spoon.vdi",
 	"pdf": 11,
 	"opponents": [0,5]
     },
     {
 	"tool" : "FunnyQT",
 	"authors" : "Tassilo Horn",
-	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64-TTC15-FunnyQT.vdi",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_TTC15-FunnyQT_2.vdi",
 	"pdf" : 14,
 	"opponents": [0,1]
     },
     {
 	"tool": "SDMLib",
 	"authors": "Olaf Gunkel et al.",
-	"share": null,
+	"share": "http://share20.eu/?page=ConfigureNewSession&vdi=ArchLinux64-TTC15_sdmlib.vdi",
 	"pdf": 17,
 	"opponents": [1,4]
     },
