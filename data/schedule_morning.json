@@ -1,54 +1,47 @@
 [
   {
-		"time" : "09.15",
-		"fixml" : 0,
-		"movie" : 4
-	},
-  {
 		"time" : "09.30",
-		"fixml" : 1,
-		"movie" : 5
+    "execution" : 1,
+    "refactoring" : 2
 	},
   {
 		"time" : "09.45",
-		"fixml" : 2,
-		"movie" : 6
+    "execution" : 0,
+    "refactoring" : 1
 	},
   {
 		"time" : "10.00",
-		"fixml" : 3,
-		"movie" : 7
+    "execution" : 3,
+    "refactoring" : 0
 	},
   {
 		"time" : "10.15",
-		"fixml" : 4,
-		"movie" : 8
-	},
-  {
-		"time" : "10.30"
+    "execution" : 2,
+    "refactoring" : 3
 	},
   {
 		"time" : "11.00",
-		"fixml" : 5,
-		"movie" : 0
+    "refactoring" : 4
 	},
   {
 		"time" : "11.15",
-		"fixml" : 6,
-		"movie" : 1
+    "train" : 0,
+    "refactoring" : 5
 	},
   {
 		"time" : "11.45",
-		"fixml" : 7,
-		"movie" : 2
+    "train" : 1
 	},
   {
 		"time" : "12.00",
-		"fixml" : 8,
-		"movie" : 3
+    "train" : 2
 	},
   {
 		"time" : "12.15",
-		"fixml" : 9
+    "train" : 3
+  },
+  {
+		"time" : "12.30",
+    "train" : 4
   }
 ]

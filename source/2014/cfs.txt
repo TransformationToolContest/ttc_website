@@ -25,7 +25,7 @@ This contest is the seventh of its kind (after an AGTiVE 2007 session, as GraBaT
 
 The following two challenging case studies have been selected:
 
-* The FIXML to Java, C# and C++ Case, by Kevin Lano, Sobhan Yassipour-Tehrani, and Krikor Maroukian (https://github.com/transformationtoolcontest/ttc2014-fixml)
+* The execution to Java, C# and C++ Case, by Kevin Lano, Sobhan Yassipour-Tehrani, and Krikor Maroukian (https://github.com/transformationtoolcontest/ttc2014-execution)
 
 * The Movie Database Case, by Tassilo Horn, Christian Krause and Matthias Tichy (https://github.com/ckrause/ttc2014-imdb)
   

@@ -1,11 +1,11 @@
 <div class="container">
-  
+
   <div class="row">
     <div class="col-md-12">
-  
+
       <h3>Solutions to the Model Execution Case</h3>
       <% solutions = data.solutions_execution  %>
-      
+
       Case resources:
       <ul>
         <li><a href="https://code.google.com/a/eclipselabs.org/p/moliz/source/browse/?repo=ttc2015">Description and case resources</a> (Github repository)</li>
@@ -14,31 +14,34 @@
       </ul>
 
       <p>The following <%=solutions.size%> solutions were submitted for the Model Execution case</a>.</p>
-      
+
       <table class="table table-striped table-bordered table-hover">
         <thead>
           <tr>
-            <!-- <th>
-              Presentation<br/>
-            </th> -->
+            <th>Presentation<br/></th>
             <th>Tool</th>
             <th>Authors</th>
             <th>Artefacts</th>
             <th>Opponents</th>
           </tr>
+          <tr>
+            <td>09.15</td>
+            <td><strong>Case Overview</strong></td>
+            <td colspan="3">Tanja Mayerhofer and Manuel Wimmer</td>
+          </tr>
         </thead>
         <tbody>
-          <% solutions.each_with_index do |solution, index| %>
+          <% solutions_with_slots = solutions.zip(solutions.each_with_index.map { |_, index| data.schedule_morning.find { |slot| slot.execution == index } }) %>
+          <% solutions_with_slots.sort_by { |row| row.last.time }.each do |solution, slot| %>
             <tr>
-              <!-- <td>
-                <% slot = data.schedule_morning.find { |slot| slot.fixml == index } %>
+              <td>
                 <%= slot.time %>
-              </td> -->
+              </td>
               <td><strong><%=solution.tool%></strong></td>
               <td><%=solution.authors%></td>
               <td>
                 <a href="/solutions/execution/TTC_2015_submission_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
-                
+
                 <% if solution.share.nil? %>
                   <strong>No SHARE demo</strong>
                 <% else %>
@@ -52,71 +55,71 @@
           <% end %>
         </tbody>
       </table>
-      
+
       <!-- <h3>Awards</h3>
-      The <a href="https://docs.google.com/spreadsheets/d/1dusXx-tfwQuWT05S7rtqedUu2C-w_NND4yC79ePUQ9o/edit?usp=sharing">live scoring</a> of the 2014 FIXML case resulted in the awards shown below. -->
+      The <a href="https://docs.google.com/spreadsheets/d/1dusXx-tfwQuWT05S7rtqedUu2C-w_NND4yC79ePUQ9o/edit?usp=sharing">live scoring</a> of the 2014 execution case resulted in the awards shown below. -->
     </div>
   </div>
-  
+
   <!-- <div class="row">
-    <div class="col-md-12"> 
+    <div class="col-md-12">
       <h4>Overall Winner</h4>
     </div>
-    
+
     <div class="col-md-3">
-        <a href="images/awards/fixml/sdmlib_henshin_overall.jpg" class="thumbnail">
-          <img src="images/awards/fixml/sdmlib_henshin_overall.jpg">
+        <a href="images/awards/execution/sdmlib_henshin_overall.jpg" class="thumbnail">
+          <img src="images/awards/execution/sdmlib_henshin_overall.jpg">
         </a>
         <div class="caption">
           <h6>1st: SDMLib / Henshin</h6>
         </div>
     </div>
-    
+
     <div class="col-md-3">
-        <a href="images/awards/fixml/funnyqt_overall.jpg" class="thumbnail">
-          <img src="images/awards/fixml/funnyqt_overall.jpg">
+        <a href="images/awards/execution/funnyqt_overall.jpg" class="thumbnail">
+          <img src="images/awards/execution/funnyqt_overall.jpg">
         </a>
         <div class="caption">
           <h6>2nd: FunnyQT</h6>
         </div>
     </div>
-    
+
     <div class="col-md-3">
-        <a href="images/awards/fixml/sigma_overall.jpg" class="thumbnail">
-          <img src="images/awards/fixml/sigma_overall.jpg">
+        <a href="images/awards/execution/sigma_overall.jpg" class="thumbnail">
+          <img src="images/awards/execution/sigma_overall.jpg">
         </a>
         <div class="caption">
           <h6>3rd: SIGMA</h6>
         </div>
     </div>
   </div>
-  
+
   <div class="row">
-    <div class="col-md-12"> 
+    <div class="col-md-12">
       <h4>Categories</h4>
     </div>
-    
+
     <div class="col-md-3">
-        <a href="images/awards/fixml/epsilon_ease_of_use.jpg" class="thumbnail">
-          <img src="images/awards/fixml/epsilon_ease_of_use.jpg">
+        <a href="images/awards/execution/epsilon_ease_of_use.jpg" class="thumbnail">
+          <img src="images/awards/execution/epsilon_ease_of_use.jpg">
         </a>
         <div class="caption">
           <h6>Easiest to Use: Epsilon</h6>
         </div>
     </div>
-    
+
     <div class="col-md-3">
-        <a href="images/awards/fixml/sdmlib_complexity.jpg" class="thumbnail">
-          <img src="images/awards/fixml/sdmlib_complexity.jpg">
+        <a href="images/awards/execution/sdmlib_complexity.jpg" class="thumbnail">
+          <img src="images/awards/execution/sdmlib_complexity.jpg">
         </a>
         <div class="caption">
           <h6>Least Complex: SDMLib</h6>
         </div>
     </div>
-    
+
     <div class="col-md-3">
-        <a href="images/awards/fixml/funnyqt_accuracy.jpg" class="thumbnail">
-          <img src="images/awards/fixml/funnyqt_accuracy.jpg">
+        <a href="images/awards/execution/funnyqt_accuracy.jpg" class="thumbnail">
+          <img src="images/awards/execution/funnyqt_accuracy.jpg">
         </a>
         <div class="caption">
           <h6>Most Accurate: FunnyQT</h6>
