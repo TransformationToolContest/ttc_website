@@ -4,7 +4,7 @@
     <div class="col-md-8">
 
       <h3>Programme</h3>
-      <p>As TTC is a contest and not a workshop or conference, it has a rather unusual format. The morning of the contest will be used to score the solutions to the offline cases (execution and refactoring Database). The afternoon of the contest will be used to score solutions to the live contest (a transformation problem that will be announced on Monday 21st July). The purpose of the morning and afternoon sessions is the same: to present your solution, score the solutions of others, and to crown an overall winner in each category.</p>
+      <p>As TTC is a contest and not a workshop or conference, it has a rather unusual format. The morning of the contest will be used to score the solutions to the offline cases (Model Execution, Java Refactoring and Train Benchmark). The afternoon of the contest will be used to score solutions to the live contest (a transformation problem that will be announced on Monday 20th July). The purpose of the morning and afternoon sessions is the same: to present your solution, score the solutions of others, and to determine an overall winner in each category.</p>
 
       <h4>Monday 20th July, Tuesday 21st July, Wednesday 22nd July, Thursday 23rd July</h4>
       <p>All day - Hackspace will be available (in Room 1.F) for you to work on your solutions to the live contest, or to talk about transformations with other contestants and TTC organisers.</p>
@@ -26,7 +26,8 @@
               <strong>09.00</strong>
             </td>
             <td colspan="2">
-              <strong><a href="/presentations/welcome.pdf">Welcome</a> (Room 1.G)</strong>
+              <strong>Welcome (Room 1.G)</strong>
+              <!-- <strong><a href="/presentations/welcome.pdf">Welcome</a> (Room 1.G)</strong> -->
             </td>
           </tr>
           <tr>
@@ -55,7 +56,7 @@
                   <em>
                     <%=execution_solution.opponents.map { |index| data.solutions_execution[index].authors }.join("<br/>")%>
                   </em><br/><br/>
-                  <a href="/solutions/execution/ttc2014_submission_<%=execution_solution.pdf%>.pdf">PDF Description</a> |
+                  <a href="/solutions/execution/TTC_2015_submission_<%=execution_solution.pdf%>.pdf">PDF Description</a> |
                   <% if execution_solution.share.empty? %>
                     <strong>No SHARE demo</strong>
                   <% else %>
@@ -67,7 +68,7 @@
                   <em>
                     <%=train_solution.opponents.map { |index| data.solutions_train[index].authors }.join("<br/>")%>
                   </em><br/><br/>
-                  <a href="/solutions/train/ttc2014_submission_<%=train_solution.pdf%>.pdf">PDF Description</a> |
+                  <a href="/solutions/train/TTC_2015_submission_<%=train_solution.pdf%>.pdf">PDF Description</a> |
                   <% if train_solution.share.empty? %>
                     <strong>No SHARE demo</strong>
                   <% else %>
@@ -81,7 +82,7 @@
                   <em>
                     <%=refactoring_solution.opponents.map { |index| data.solutions_refactoring[index].authors }.join("<br/>")%>
                   </em><br/><br/>
-                  <a href="/solutions/refactoring/ttc2014_submission_<%=refactoring_solution.pdf%>.pdf">PDF Description</a> |
+                  <a href="/solutions/refactoring/TTC_2015_submission_<%=refactoring_solution.pdf%>.pdf">PDF Description</a> |
                   <% if refactoring_solution.share.empty? %>
                     <strong>No SHARE demo</strong>
                   <% else %>
@@ -118,7 +119,7 @@
                     <em>
                       <%=train_solution.opponents.map { |index| data.solutions_train[index].authors }.join("<br/>")%>
                     </em><br/><br/>
-                    <a href="/solutions/train/ttc2014_submission_<%=train_solution.pdf%>.pdf">PDF Description</a> |
+                    <a href="/solutions/train/TTC_2015_submission_<%=train_solution.pdf%>.pdf">PDF Description</a> |
                     <% if train_solution.share.empty? %>
                       <strong>No SHARE demo</strong>
                     <% else %>
@@ -132,7 +133,7 @@
                     <em>
                       <%=refactoring_solution.opponents.map { |index| data.solutions_refactoring[index].authors }.join("<br/>")%>
                     </em><br/><br/>
-                    <a href="/solutions/refactoring/ttc2014_submission_<%=refactoring_solution.pdf%>.pdf">PDF Description</a> |
+                    <a href="/solutions/refactoring/TTC_2015_submission_<%=refactoring_solution.pdf%>.pdf">PDF Description</a> |
                     <% if refactoring_solution.share.empty? %>
                       <strong>No SHARE demo</strong>
                     <% else %>
@@ -172,7 +173,7 @@
               <td>
                 <% if slot.tool? %>
                   <strong><%=slot.tool%> - <%=slot.authors%></strong><br/>
-                  <a href="/solutions/live/ttc2014_submission_<%=slot.pdf%>.pdf">PDF Description</a> |
+                  <a href="/solutions/live/ttc2015_submission_<%=slot.pdf%>.pdf">PDF Description</a> |
                   <% if slot.share.empty? %>
                     <strong>No SHARE demo</strong>
                   <% else %>
@@ -188,7 +189,8 @@
                 <strong>17.00</strong>
               </td>
               <td>
-                <strong>Awards and <a href="/presentations/wrapup.pdf">Wrap Up</a></strong>
+                <strong>Awards and Wrap Up</strong>
+                <!-- <strong>Awards and <a href="/presentations/wrapup.pdf">Wrap Up</a></strong> -->
               </td>
             </tr>
 
