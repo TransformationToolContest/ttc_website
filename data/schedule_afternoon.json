@@ -1,42 +1,22 @@
 [
-  {
-		"time" : "14.15",
-    "_comment" : "keys are tool (string), authors (string), pdf (integer), share (string - url)"
-	},
-  {
-		"time" : "14.30",
-    "_comment" : "keys are tool (string), authors (string), pdf (integer), share (string - url)"
-  },
-  {
-		"time" : "14.45",
-    "_comment" : "keys are tool (string), authors (string), pdf (integer), share (string - url)"
-	},
-  {
-		"time" : "15.00",
-    "_comment" : "keys are tool (string), authors (string), pdf (integer), share (string - url)"
-	},
-  {
-		"time" : "15.15",
-    "_comment" : "keys are tool (string), authors (string), pdf (integer), share (string - url)"
-	},
-  {
-		"time" : "15.30",
-    "_comment" : "coffee break"
-	},
-  {
-		"time" : "16.00",
-    "_comment" : "keys are tool (string), authors (string), pdf (integer), share (string - url)"
-	},
-  {
-		"time" : "16.15",
-    "_comment" : "keys are tool (string), authors (string), pdf (integer), share (string - url)"
-	},
-  {
-		"time" : "16.30",
-    "_comment" : "keys are tool (string), authors (string), pdf (integer), share (string - url)"
-	},
-  {
-		"time" : "16.45",
-    "_comment" : "keys are tool (string), authors (string), pdf (integer), share (string - url)"
-	}
+    {
+	"time" : "14.15",
+	"tool" : "SDMLib",
+	"authors" : "Stefan Lindel, Albert Zündorf"
+    },
+    {
+	"time" : "14.30",
+	"tool" : "Epsilon",
+	"authors" : "arcanefoam"
+    },
+    {
+	"time" : "14.45",
+	"tool" : "ATL",
+	"authors" : "Frédéric Jouault"
+    },
+    {
+	"time" : "15.00",
+	"tool" : "Spoon",
+	"authors" : "Gerard Paligot"
+    }
 ]
