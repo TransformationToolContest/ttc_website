@@ -173,12 +173,6 @@
               <td>
                 <% if slot.tool? %>
                   <strong><%=slot.tool%> - <%=slot.authors%></strong><br/>
-                  <a href="/solutions/live/ttc2015_submission_<%=slot.pdf%>.pdf">PDF Description</a> |
-                  <% if slot.share.empty? %>
-                    <strong>No SHARE demo</strong>
-                  <% else %>
-                    <a href="<%=slot.share%>">SHARE Demo</a>
-                  <% end %>
                 <% end %>
               </td>
             </tr>
