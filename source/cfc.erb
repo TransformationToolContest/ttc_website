@@ -1,118 +1,124 @@
 <div class="container">
-  
+
   <div class="row">
     <div class="col-md-8">
-  
+
       <h3>Call for Cases</h3>
-      <p>In order to facilitate the 
-        comparison of transformation tools, we are soliciting potential 
+      <p>In order to facilitate the
+        comparison of transformation tools, we are soliciting potential
         case studies. Specific areas of transformation case studies relevant
-        to TTC are described on our <%= link_to 'aims and scope page', '/aims_and_scope.html' %>. For TTC 2015, we are particularly encouraging
+        to TTC are described on our <%= link_to 'aims and scope page', '/aims_and_scope.html' %>. For TTC 2016, we continue to encourage
         the submission of cases relating to <strong>bi-directional transformation</strong>
-        or to <strong>program transformation</strong>. If you have a suitable case study, please 
-        describe it shortly but as detailed as needed and submit it to 
-        the online submission system. Please include a reference 
-        solution to your case to support the evaluation of the 
+        or to <strong>program transformation</strong>. If you have a suitable case study, please
+        describe it shortly but as detailed as needed and submit it to
+        the online submission system. Please include a reference
+        solution to your case to support the evaluation of the
         correctness of submitted solutions.</p>
 
-      <p>Our program committee will select a small, but representative 
-        set of case studies to be used for the contest. Case 
+      <p>Our program committee will select a small, but representative
+        set of case studies to be used for the contest. Case
         descriptions should answer the following questions:</p>
 
       <ul>
-        <li>What is the context of the case? 
+        <li>What is the context of the case?
           (provide a short description and references)</li>
-          
+
         <ul>
           <li>What is the subject to be modeled?
           (what are the input and output modeling languages?)</li>
 
           <li>What is the purpose of the models?
-          (what are they typically used for from a larger 
+          (what are they typically used for from a larger
           perspective than the proposed case study?)</li>
         </ul>
 
         <li>What are variation points in the case?
-          (divide up your case in core characteristics 
+          (divide up your case in core characteristics
           and extensions)</li>
 
-        <li>What are the criteria for evaluating the submitted solutions 
+        <li>What are the criteria for evaluating the submitted solutions
           to the case?</li>
-          
+
         <ul>
-          <li>Correctness test: which are the reference input/ouput 
-            documents (models/graphs) and how should they be used? 
-            Ideally, a case description includes a testsuite, as well 
-            as a test driver (The test driver can be an online web service, 
-            or a local script that can be deployed in SHARE 
+          <li>Correctness test: which are the reference input/ouput
+            documents (models/graphs) and how should they be used?
+            Ideally, a case description includes a testsuite, as well
+            as a test driver (The test driver can be an online web service,
+            or a local script that can be deployed in SHARE
             (see <a href="http://is.tm.tue.nl/staff/pvgorp/share">http://is.tm.tue.nl/staff/pvgorp/share</a>)</li>
 
-          <li>Which transformation tool-related features are important 
+          <li>Which transformation tool-related features are important
             and how can they be classified?
-            (e.g., formal analysis of the transformation program, rule 
-            debugging support, ...) 
+            (e.g., formal analysis of the transformation program, rule
+            debugging support, ...)
 
-          <li>What transformation language-related challenges are 
+          <li>What transformation language-related challenges are
             important and how can they be classified?
-            (e.g., declarative bidirectionality, declarative change 
-            propagation, declarative subgraph copying, cyclic graph 
-            support, typing issues, ...) 
+            (e.g., declarative bidirectionality, declarative change
+            propagation, declarative subgraph copying, cyclic graph
+            support, typing issues, ...)
 
-          <li>How to measure the quality of submitted solutions, at the 
+          <li>How to measure the quality of submitted solutions, at the
             design level?
-            (e.g., measure the number of rules, the conciseness of 
+            (e.g., measure the number of rules, the conciseness of
             rules, ...)
         </ul>
 
-        <li>How can the solutions be evaluated (ranked) systematically 
+        <li>How can the solutions be evaluated (ranked) systematically
           using information technology?
           Please provide one of the following:
-        
-        <ul>
-          <li>a simple spreadsheet (an evaluation form that can be 
-            aggregated easily (See for example <a href="http://goo.gl/QwxTAs">http://goo.gl/QwxTAs</a>), 
 
-          <li>a so-called "classification scheme" in ResearchR 
+        <ul>
+          <li>a simple spreadsheet (an evaluation form that can be
+            aggregated easily (See for example <a href="http://goo.gl/QwxTAs">http://goo.gl/QwxTAs</a>),
+
+          <li>a so-called "classification scheme" in ResearchR
             (See <a href="http://goo.gl/QA7npw">http://goo.gl/QA7npw</a>)
-            (or a similar web 2.0 platform.) 
+            (or a similar web 2.0 platform.)
         </ul>
       </ul>
 
-      <p>Please submit at <a href="http://www.easychair.org/conferences/?conf=ttc2015">
-        http://www.easychair.org/conferences/?conf=ttc2015</a>.
-      Your submission should include (i) a case description (in PDF 
-      format) answering the above questions and (ii) a ZIP archive 
-      that contains all test artifacts as well as the evaluation / 
-      ranking instrument.</p>
-      
-      <p>The deadline for cases is <strong>11 March 2015</strong>.</p>
-      
+      <p>Please submit at <a href="http://www.easychair.org/conferences/?conf=ttc2016">
+        http://www.easychair.org/conferences/?conf=ttc2016</a>.
+      Your submission should include:
+
+      <ul>
+        <li>
+          a case description answering the above questions in PDF format using the <a href="http://style.eptcs.org/">EPTCS style</a>  and not exceeding 10 excluding references and appendices.
+        </li>
+        <li>
+          a URL to a publicly available repository hosting service (e.g., <a href="http://github.com/">github</a>, <a href="http://bitbucket.com/">bitbucket</a>) that contains all test artifacts as well as the evaluation / ranking instrument and any other necessary resources. The repository hosting should additionally provide a basic issue tracking system to keep track of any problems encountered by solution authors.
+        </li>
+      </ul>
+
+      <p>The deadline for cases is <strong>17 March 2016</strong>.</p>
+
       <h4>Subsequent Phases</h4>
       <p>Following the selection of a subset of the submitted cases by our
         programme committee, the following phases will be conducted.</p>
 
-      <p><strong>Phase 2</strong>: Case solution submission. All those who like to 
-      participate in the contest will be asked to choose one or more 
-      case studies, take their favorite transformation tool and 
-      submit their solutions. A separate call for solutions will be 
+      <p><strong>Phase 2</strong>: Case solution submission. All those who like to
+      participate in the contest will be asked to choose one or more
+      case studies, take their favorite transformation tool and
+      submit their solutions. A separate call for solutions will be
       distributed, after the cases have been selected.</p>
 
-      <p><strong>Phase 3</strong>: Open peer review. The solution reviewing before the 
-      workshop will be done by other solution submitters. All 
-      solution submitters have to review three other solutions to the 
-      case that they have addressed. These reviews will not be 
-      anonymous, since these reviewers ideally will also be the 
-      opponents at the workshop. The purpose of the peer reviewing is 
-      that the participants get as much insight into the competitor's 
-      solutions as possible and also to raise potential problems. 
-      Case submitters should be available at this stage to resolve 
-      conflicting interpretations (if any) about the case 
+      <p><strong>Phase 3</strong>: Open peer review. The solution reviewing before the
+      workshop will be done by other solution submitters. All
+      solution submitters have to review three other solutions to the
+      case that they have addressed. These reviews will not be
+      anonymous, since these reviewers ideally will also be the
+      opponents at the workshop. The purpose of the peer reviewing is
+      that the participants get as much insight into the competitor's
+      solutions as possible and also to raise potential problems.
+      Case submitters should be available at this stage to resolve
+      conflicting interpretations (if any) about the case
       description.</p>
 
-      <p><strong>Phase 4</strong>: Workshop and live contest. Besides the presentations of 
-      the submitted solutions, the workshop will comprise a live 
-      contest. For more details (such as example cases and solutions 
-      from previous editions), please consult the TTC website: 
+      <p><strong>Phase 4</strong>: Workshop and live contest. Besides the presentations of
+      the submitted solutions, the workshop will comprise a live
+      contest. For more details (such as example cases and solutions
+      from previous editions), please consult the TTC website:
       http://www.transformation-tool-contest.eu</p>
     </div>
   </div>
