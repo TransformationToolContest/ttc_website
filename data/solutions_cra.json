@@ -1,0 +1,74 @@
+[
+    {
+	"tool" : "NMF",
+	"authors" : "Georg Hinkel",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_TTC16_NMF.vdi",
+	"pdf" : 4,
+  "scm" : "http://github.com/georghinkel/TTC2016CRA",
+	"opponents": [1,7]
+    },
+    {
+	"tool" : "VIATRA",
+	"authors" : "András Szabolcs Nagy et al.",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_TTC-Arch-CRA-VIATRA.vdi",
+	"pdf" : 9,
+  "scm" : "https://github.com/FTSRG/ttc16-cra-viatra-dse",
+	"opponents": [3,7]
+    },
+    {
+	"tool" : "UML-RSDS",
+	"authors" : "Kevin Lano et al.",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_UML-RSDS.vdi",
+	"pdf" : 3,
+  "scm" : "http://www.dcs.kcl.ac.uk/staff/kcl/umlcra/umlcra/",
+	"opponents": [3,6]
+    },
+    {
+	"tool" : "ATL/Java",
+	"authors" : "Leif Arne Johnsen et al.",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_JavaAtl.vdi",
+	"pdf" : 5,
+  "scm" : "https://bitbucket.org/leifarnemsc/solutionone",
+	"opponents": [5,8]
+    },
+    {
+	"tool" : "Excel",
+	"authors" : "Maximiliano Vela et al.",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_XP_Excel_v2.vdi",
+  "scm" : "https://github.com/maximiliano-vela/ttc-2016",
+	"pdf" : 6,
+	"opponents": [1,8]
+    },
+    {
+	"tool" : "SDMLib",
+	"authors" : "Christoph Eickhoff et al.",
+	"share" : "",
+  "scm": "",
+	"pdf" : 7,
+	"opponents": [0,4]
+    },
+    {
+	"tool" : "MDEOptimiser",
+	"authors" : "Alexandru Burdusel et al.",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_MDE-Optimiser.vdi",
+	"pdf" : 8,
+  "scm": "https://github.com/szschaler/mdeoptimise_ttc16",
+	"opponents": [2,5]
+    },
+    {
+	"tool" : "Henshin",
+	"authors" : "Kristopher Born et al.",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_TTC16_NMF_mrttc16.vdi",
+  "scm" : "https://bitbucket.org/ttc16/ttc16/overview",
+	"pdf" : 10,
+	"opponents": [2,4]
+    },
+    {
+	"tool" : "SIGMA",
+	"authors" : "Filip Krikava",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_SIGMA.vdi",
+	"pdf" : 11,
+  "scm" : "https://github.com/fikovnik/ttc16-cra-sigma",
+	"opponents": [0,6]
+    }
+]

@@ -1,0 +1,61 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <h3>Solutions to the Class Responsibility Assignment Case</h3>
+      <% solutions = data.solutions_cra  %>
+
+      Case resources:
+      <ul>
+        <li><a href="https://github.com/martin-fleck/cra-ttc2016">Description and case resources</a> (Github repository)</li>
+        <li><a href="https://github.com/martin-fleck/cra-ttc2016/issues">Discussion of solutions and open peer reviews</a> (Github issue tracker)</li>
+        <li><a href="/solutions/cra/EvaluationSheet.xlsx">Evaluation sheet</a> (as provided by case authors)</li>
+        <li><a href="http://goo.gl/forms/syhLdr6eWikucjlg2">Evaluation form</a> (Google form)</li>
+      </ul>
+
+      <p>The following <%=solutions.size%> solutions were submitted:</p>
+
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <!-- <th>
+              Presentation<br/>
+            </th> -->
+            <th>Tool</th>
+            <th>Authors</th>
+            <th>Artefacts</th>
+            <th>Opponents</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% solutions.each_with_index do |solution, index| %>
+            <tr>
+              <!-- <td>
+              </td> -->
+              <td><strong><%=solution.tool%></strong></td>
+              <td><%=solution.authors%></td>
+              <td>
+                <a href="/solutions/cra/TTC_2016_paper_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
+
+                <% if solution.share.empty? %>
+                  <strong>No SHARE demo</strong>
+                <% else %>
+                  <a href="<%=solution.share%>">SHARE Demo</a>
+                <% end %>
+                <br/>
+                <% if solution.scm.empty? %>
+                  <strong>No SCM</strong>
+                <% else %>
+                  <a href="<%=solution.scm%>">SCM</a>
+                <% end %>
+              </td>
+              <td>
+                <%=solution.opponents.map { |index| solutions[index].authors }.join("<br/>")%>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
