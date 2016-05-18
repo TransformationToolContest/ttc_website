@@ -42,8 +42,8 @@
     {
 	"tool" : "SDMLib",
 	"authors" : "Christoph Eickhoff et al.",
-	"share" : "",
-  "scm": "",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_SDMLib.vdi",
+  "scm": "https://github.com/fujaba/TTC2016SDMLibSolution",
 	"pdf" : 7,
 	"opponents": [0,4]
     },
