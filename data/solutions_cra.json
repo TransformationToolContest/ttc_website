@@ -21,7 +21,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_UML-RSDS.vdi",
 	"pdf" : 3,
   "scm" : "http://www.dcs.kcl.ac.uk/staff/kcl/umlcra/umlcra/",
-	"opponents": [3,6]
+	"opponents": [1,8]
     },
     {
 	"tool" : "ATL/Java",
@@ -37,7 +37,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_XP_Excel_v2.vdi",
   "scm" : "https://github.com/maximiliano-vela/ttc-2016",
 	"pdf" : 6,
-	"opponents": [1,8]
+	"opponents": [2,6]
     },
     {
 	"tool" : "SDMLib",
@@ -53,7 +53,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_MDE-Optimiser.vdi",
 	"pdf" : 8,
   "scm": "https://github.com/szschaler/mdeoptimise_ttc16",
-	"opponents": [2,5]
+	"opponents": [3,5]
     },
     {
 	"tool" : "Henshin",
