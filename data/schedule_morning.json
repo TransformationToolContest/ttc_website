@@ -1,47 +1,38 @@
 [
   {
 		"time" : "09.30",
-    "execution" : 1,
-    "refactoring" : 2
+    "cra" : 0
 	},
   {
 		"time" : "09.45",
-    "execution" : 0,
-    "refactoring" : 1
+    "cra" : 1
 	},
   {
 		"time" : "10.00",
-    "execution" : 3,
-    "refactoring" : 0
+    "cra" : 2
 	},
   {
 		"time" : "10.15",
-    "execution" : 2,
-    "refactoring" : 5
+    "cra" : 3
 	},
   {
 		"time" : "11.00",
-    "refactoring" : 4
+    "cra" : 4
 	},
   {
 		"time" : "11.15",
-    "train" : 0,
-    "refactoring" : 3
+    "cra" : 5
 	},
   {
 		"time" : "11.45",
-    "train" : 1
+    "cra" : 6
 	},
   {
 		"time" : "12.00",
-    "train" : 2
+    "cra" : 7
 	},
   {
 		"time" : "12.15",
-    "train" : 3
-  },
-  {
-		"time" : "12.30",
-    "train" : 4
+    "cra" : 8
   }
 ]
