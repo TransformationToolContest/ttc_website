@@ -5,6 +5,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_TTC16_NMF.vdi",
 	"pdf" : 4,
   "scm" : "http://github.com/georghinkel/TTC2016CRA",
+  "slides" : "",
 	"opponents": [1,7]
     },
     {
@@ -13,6 +14,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_TTC-Arch-CRA-VIATRA.vdi",
 	"pdf" : 9,
   "scm" : "https://github.com/FTSRG/ttc16-cra-viatra-dse",
+  "slides" : "",
 	"opponents": [3,7]
     },
     {
@@ -21,6 +23,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_UML-RSDS.vdi",
 	"pdf" : 3,
   "scm" : "http://www.dcs.kcl.ac.uk/staff/kcl/umlcra/umlcra/",
+  "slides" : "",
 	"opponents": [1,8]
     },
     {
@@ -29,6 +32,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_JavaAtl.vdi",
 	"pdf" : 5,
   "scm" : "https://bitbucket.org/leifarnemsc/solutionone",
+  "slides" : "",
 	"opponents": [5,8]
     },
     {
@@ -37,6 +41,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_XP_Excel_v2.vdi",
   "scm" : "https://github.com/maximiliano-vela/ttc-2016",
 	"pdf" : 6,
+  "slides" : "",
 	"opponents": [2,6]
     },
     {
@@ -45,6 +50,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_SDMLib.vdi",
   "scm": "https://github.com/fujaba/TTC2016SDMLibSolution",
 	"pdf" : 7,
+  "slides" : "",
 	"opponents": [0,4]
     },
     {
@@ -53,6 +59,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_MDE-Optimiser.vdi",
 	"pdf" : 8,
   "scm": "https://github.com/szschaler/mdeoptimise_ttc16",
+  "slides" : "",
 	"opponents": [3,5]
     },
     {
@@ -61,6 +68,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_TTC16_NMF_mrttc16.vdi",
   "scm" : "https://bitbucket.org/ttc16/ttc16/overview",
 	"pdf" : 10,
+  "slides" : "",
 	"opponents": [2,4]
     },
     {
@@ -69,6 +77,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=ArchLinux64_SIGMA.vdi",
 	"pdf" : 11,
   "scm" : "https://github.com/fikovnik/ttc16-cra-sigma",
+  "slides" : "https://github.com/fikovnik/ttc16-cra-sigma/blob/master/doc/presentation/ttc16-cra-krikava.pdf",
 	"opponents": [0,6]
     }
 ]

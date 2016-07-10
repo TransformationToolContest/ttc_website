@@ -30,6 +30,8 @@
             </td>
             <td>
               <strong>Welcome</strong>
+              <br />
+              <a href="https://docs.google.com/presentation/d/1JYpyZd4AHcI49SNlL1ISZ7HB5-1I6K2yFGNt7J7On4Q">Slides</a>
             </td>
           </tr>
           <tr>
@@ -38,6 +40,9 @@
             </td>
             <td>
               <strong>Introduction to the Class Responsibility Assignment case study</strong>
+              <br/>
+              <a href="/solutions/cra/TTC_2016_CRA_Case.pdf">PDF</a>
+
             </td>
           </tr>
 
@@ -63,6 +68,12 @@
                     <strong>No Source Code</strong>
                   <% else %>
                     <a href="<%=cra_solution.scm%>">Source Code</a>
+                  <% end %>
+                  |
+                  <% if cra_solution.slides.empty? %>
+                    No Slides
+                  <% else %>
+                    <a href="<%=cra_solution.slides%>">Slides</a>
                   <% end %>
               </td>
             </tr>
@@ -99,6 +110,12 @@
                     <strong>No Source Code</strong>
                   <% else %>
                     <a href="<%=cra_solution.scm%>">Source Code</a>
+                  <% end %>
+                  |
+                  <% if cra_solution.slides.empty? %>
+                    No Slides
+                  <% else %>
+                    <a href="<%=cra_solution.slides%>">Slides</a>
                   <% end %>
                 </td>
               </tr>
@@ -173,7 +190,10 @@
               </td>
               <td>
                 <strong>Awards and Wrap Up</strong>
+                <br />
                 <!-- <strong>Awards and <a href="/presentations/wrapup.pdf">Wrap Up</a></strong> -->
+                <a href="https://docs.google.com/presentation/d/1NDfP-fhGvmomlSK1mqzkjbdfZxfBLVox66TI7FWPYzc">Slides</a>
+
               </td>
             </tr>
             <tr>
