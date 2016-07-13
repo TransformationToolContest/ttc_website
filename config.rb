@@ -74,7 +74,6 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :git
-#  deploy.remote = "https://github.com/TransformationToolContest/TransformationToolContest.github.io.git"
-  deploy.remote = "ssh://git@github.com:TransformationToolContest/TransformationToolContest.github.io.git"
+  deploy.remote = "https://github.com/TransformationToolContest/TransformationToolContest.github.io.git"
   deploy.branch = "master"
 end
