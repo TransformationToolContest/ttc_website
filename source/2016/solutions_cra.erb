@@ -1,0 +1,187 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <h3>Solutions to the Class Responsibility Assignment Case</h3>
+      <% solutions = data.solutions_cra  %>
+
+      Case resources:
+      <ul>
+        <li><a href="https://github.com/martin-fleck/cra-ttc2016">Description and case resources</a> (Github repository)</li>
+        <li><a href="/solutions/cra/TTC_2016_CRA_Case.pdf">Case presentation</a></li>
+        <li><a href="https://github.com/martin-fleck/cra-ttc2016/issues">Discussion of solutions and open peer reviews</a> (Github issue tracker)</li>
+        <li><a href="/solutions/cra/EvaluationSheet.xlsx">Evaluation sheet</a> (as provided by case authors)</li>
+        <li><a href="http://goo.gl/forms/syhLdr6eWikucjlg2">Evaluation form</a> (Google form)</li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1R1IFPYaaGfR7dRib90mdlVKEedu6_fx7PtMi3wvXthY">Evaluation sheets results</a></li>
+      </ul>
+
+      <p>The following <%=solutions.size%> solutions were submitted:</p>
+
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <!-- <th>
+              Presentation<br/>
+            </th> -->
+            <th>Tool</th>
+            <th>Authors</th>
+            <th>Artefacts</th>
+            <th>Opponents</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% solutions.each_with_index do |solution, index| %>
+            <tr>
+              <!-- <td>
+              </td> -->
+              <td><strong><%=solution.tool%></strong></td>
+              <td><%=solution.authors%></td>
+              <td>
+                <a href="/solutions/cra/TTC_2016_paper_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
+
+                <% if solution.share.empty? %>
+                  <strong>No SHARE demo</strong>
+                <% else %>
+                  <a href="<%=solution.share%>">SHARE Demo</a>
+                <% end %>
+                <br/>
+                <% if solution.scm.empty? %>
+                  <strong>No SCM</strong>
+                <% else %>
+                  <a href="<%=solution.scm%>">SCM</a>
+                <% end %>
+              </td>
+              <td>
+                <%=solution.opponents.map { |index| solutions[index].authors }.join("<br/>")%>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Awards</h3>
+        <p>The solutions were scored at the contest, resulting in the following awards:</p>
+      </div>
+
+      <div class="col-md-12">
+        <p>The <strong>best overall solution</strong> was based on the rating from the peer-review phase as well as the performance and quality.</p>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/Overall-1.jpg" class="thumbnail">
+            <img src="images/awards/Overall-1.jpg">
+          </a>
+          <div class="caption">
+            <h6>The Best Overall Solution: VIATRA</h6>
+          </div>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/Overall-2.jpg" class="thumbnail">
+            <img src="images/awards/Overall-2.jpg">
+          </a>
+          <div class="caption">
+            <h6>2nd Best Overall Solution: Henshin</h6>
+          </div>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/Overall-3.jpg" class="thumbnail">
+            <img src="images/awards/Overall-3.jpg">
+          </a>
+          <div class="caption">
+            <h6>3rd Best Overall Solution: SIGMA</h6>
+          </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p>
+          The <strong>best quality solution</strong> was based on the rating by the participants during the TTC'16 workshop day on 8.7.2016.
+          <br/>
+          The results are available in this <a href="https://docs.google.com/spreadsheets/d/1Po5C7zrijc62oVvhwOyQF1Ynpxo8ZqRR5Onc2pwtJhA/edit?usp=sharing">pivot table</a>
+        </p>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/Quality-1.jpg" class="thumbnail">
+            <img src="images/awards/Quality-1.jpg">
+          </a>
+          <div class="caption">
+            <h6>The Best Quality Solution: Henshin</h6>
+          </div>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/Quality-2.jpg" class="thumbnail">
+            <img src="images/awards/Quality-2.jpg">
+          </a>
+          <div class="caption">
+            <h6>2nd Best Quality Solution: VIATRA</h6>
+          </div>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/Quality-3.jpg" class="thumbnail">
+            <img src="images/awards/Quality-3.jpg">
+          </a>
+          <div class="caption">
+            <h6>3rd Best Quality Solution: SIGMA</h6>
+          </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p>The <strong>best performance solution</strong> was based on the generated CRA-Index.</p>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/Performance-1.jpg" class="thumbnail">
+            <img src="images/awards/Performance-1.jpg">
+          </a>
+          <div class="caption">
+            <h6>The Best Performance Solution: VIATRA</h6>
+          </div>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/Performance-2.jpg" class="thumbnail">
+            <img src="images/awards/Performance-2.jpg">
+          </a>
+          <div class="caption">
+            <h6>2nd Best Performance Solution: Henshin</h6>
+          </div>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/Performance-3.jpg" class="thumbnail">
+            <img src="images/awards/Performance-3.jpg">
+          </a>
+          <div class="caption">
+            <h6>3rd Best Performance Solution: SDMLib</h6>
+          </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p>The <strong>most interesting solution</strong> was a special price for a solution that was entirely done in Excel producing good CRA-Index as well as excellent execution times.</p>
+      </div>
+
+      <div class="col-md-3">
+          <a href="images/awards/MostInteresting-1.jpg" class="thumbnail">
+            <img src="images/awards/MostInteresting-1.jpg">
+          </a>
+          <div class="caption">
+            <h6>The Most Interesting Solution: Excel</h6>
+          </div>
+      </div>
+
+    </div>
+  </div>
