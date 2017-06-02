@@ -1,0 +1,56 @@
+[
+    {
+	"tool" : "NMF",
+	"authors" : "Georg Hinkel",
+	"share" : "",
+	"pdf" : 6,
+  "scm" : "https://github.com/georghinkel/benchmarx",
+  "slides" : "",
+	"opponents": [1,3]
+    },
+    {
+	"tool" : "UML-RSDS",
+	"authors" : "Kevin Lano and Shekoufeh Kolahdouz Rahimi",
+	"share" : "",
+	"pdf" : 8,
+  "scm" : "http://nms.kcl.ac.uk/kevin.lano/uml2web/persons2fam.zip",
+  "slides" : "",
+	"opponents": [2,4]
+    },
+    {
+	"tool" : "SDMLib",
+	"authors" : "Albert Zündorf and Alexander Weidt",
+	"share" : "",
+	"pdf" : 9,
+  "scm" : "",
+  "slides" : "",
+	"opponents": [3,5]
+    },
+    {
+	"tool" : "FunnyQT",
+	"authors" : "Tassilo Horn",
+	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=Ubuntu12LTS_BenchmarX_FunnyQT2.vdi",
+	"pdf" : 13,
+  "scm" : "https://github.com/tsdh/ttc17-families2persons-bx",
+  "slides" : "",
+	"opponents": [0,5]
+    },
+    {
+	"tool" : "EVL+Strace",
+	"authors" : "Leila Samimi-Dehkordi et al.",
+	"share" : "",
+  "scm" : "http://lsamimi.ir/EVLStrace.htm",
+	"pdf" : 14,
+  "slides" : "",
+	"opponents": [0,1]
+    },
+    {
+	"tool" : "Yage",
+	"authors" : "Simon-Lennert Räsch et al.",
+	"share" : "",
+  "scm": "",
+	"pdf" : 7,
+  "slides" : "",
+	"opponents": [2,4]
+    }
+]

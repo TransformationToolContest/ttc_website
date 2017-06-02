@@ -1,0 +1,60 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <h3>Solutions to the State Elimination Case</h3>
+      <% solutions = data.solutions_stateElimination  %>
+
+      Case resources:
+      <ul>
+        <li><a href="https://github.com/sinemgetir/state-elimination-mt/">Description and case resources</a> (Github repository)</li>
+        <li><a href="TTC_2017_paper_4.pdf">Case presentation</a></li>
+        <li><a href="https://github.com/sinemgetir/state-elimination-mt/issues">Discussion of solutions and open peer reviews</a> (Github issue tracker)</li>
+      </ul>
+
+      <p>The following <%=solutions.size%> solutions were submitted:</p>
+
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <!-- <th>
+              Presentation<br/>
+            </th> -->
+            <th>Tool</th>
+            <th>Authors</th>
+            <th>Artefacts</th>
+            <th>Opponents</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% solutions.each_with_index do |solution, index| %>
+            <tr>
+              <!-- <td>
+              </td> -->
+              <td><strong><%=solution.tool%></strong></td>
+              <td><%=solution.authors%></td>
+              <td>
+                <a href="solutions/stateElimination/TTC_2017_paper_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
+
+                <% if solution.share.empty? %>
+                  <strong>No SHARE demo</strong>
+                <% else %>
+                  <a href="<%=solution.share%>">SHARE Demo</a>
+                <% end %>
+                <br/>
+                <% if solution.scm.empty? %>
+                  <strong>No SCM</strong>
+                <% else %>
+                  <a href="<%=solution.scm%>">SCM</a>
+                <% end %>
+              </td>
+              <td>
+                <%=solution.opponents.map { |index| solutions[index].authors }.join("<br/>")%>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>

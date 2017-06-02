@@ -1,0 +1,20 @@
+[
+    {
+	"tool" : "NMF",
+	"authors" : "Georg Hinkel",
+	"share" : "",
+	"pdf" : 5,
+  "scm" : "https://github.com/georghinkel/ttc2017smartGrids",
+  "slides" : "",
+	"opponents": [1]
+    },
+    {
+	"tool" : "eMoflon",
+	"authors" : "Sven Peldszus et al.",
+	"share" : "",
+	"pdf" : 17,
+  "scm" : "https://github.com/SvenPeldszus/rgse.ttc17.emoflon.tgg",
+  "slides" : "",
+	"opponents": [0]
+    }
+]

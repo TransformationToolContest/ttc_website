@@ -7,12 +7,12 @@
       <p>As TTC is a contest and not a workshop or conference, it has a rather unusual format. The morning of the contest will be used to score the solutions to the offline case, the Class Responsiblity Assignment problem. The afternoon of the contest will be used to score solutions to the live contest (a transformation problem that will be announced on <strong>Monday 4th July</strong>). The purpose of the morning and afternoon sessions is the same: to present your solution, score the solutions of others, and to determine an overall winner in each category.</p>
       <br/>
 
-      <h4>Monday 4th July &mdash; Thursday 7rd July</h4>
+      <h4>Monday 17th July &mdash; Thursday 20th July</h4>
       <p>All day -  the conference venue offers plenty of public work stations that can be used as a hackspace for you to work on your solutions to the live contest, or to talk about transformations with other contestants and TTC organisers.</p>
       <br/>
 
-      <h4>Friday 8th July</h4>
-      <p>The morning session is dedicated to the <a href="solutions_cra.html">Class Responsibility Assignment problem</a>:</p>
+      <h4>Friday 21st July</h4>
+      <p>The morning session is dedicated to the <a href="solutions_familiesToPersons.html">Families to Persons case</a>:</p>
       <p><strong>Please the following <a href="https://docs.google.com/forms/d/1KUlYMdSfSMSomFxjwOFbIlBi0CCIDAMXHMv-tbgL1MQ/viewform">google form</a> to evaluate the solutions.</strong> The scores will be used to determine the winner.</p>
       <br/>
 
@@ -46,16 +46,16 @@
             </td>
           </tr>
 
-          <% data.schedule_morning.take(4).each do |slot| %>
+          <% data.schedule_morning.take(6).each do |slot| %>
             <%
-              cra_solution = data.solutions_cra[slot.cra]
+              cra_solution = data.solutions_familiesToPersons[slot.cra]
             %>
             <tr>
               <td><strong><%=slot.time%></strong></td>
               <td>
                   <strong><%=cra_solution.tool%> - <%=cra_solution.authors%></strong><br/>
                   <em>
-                    <%=cra_solution.opponents.map { |index| data.solutions_cra[index].authors }.join("<br/>")%>
+                    <%=cra_solution.opponents.map { |index| data.solutions_familiesToPersons[index].authors }.join("<br/>")%>
                   </em><br/><br/>
                   <a href="solutions/cra/TTC_2016_paper_<%=cra_solution.pdf%>.pdf">PDF Description</a> |
                   <% if cra_solution.share.empty? %>
@@ -88,16 +88,16 @@
               </td>
             </tr>
 
-            <% data.schedule_morning.drop(4).each do |slot| %>
+            <% data.schedule_morning.take(5).each do |slot| %>
               <%
-                cra_solution = data.solutions_cra[slot.cra]
+                cra_solution = data.solutions_stateElimination[slot.cra]
               %>
               <tr>
                 <td><strong><%=slot.time%></strong></td>
                 <td>
                   <strong><%=cra_solution.tool%> - <%=cra_solution.authors%></strong><br/>
                   <em>
-                    <%=cra_solution.opponents.map { |index| data.solutions_cra[index].authors }.join("<br/>")%>
+                    <%=cra_solution.opponents.map { |index| data.solutions_stateElimination[index].authors }.join("<br/>")%>
                   </em><br/><br/>
                   <a href="solutions/cra/TTC_2016_paper_<%=cra_solution.pdf%>.pdf">PDF Description</a> |
                   <% if cra_solution.share.empty? %>
