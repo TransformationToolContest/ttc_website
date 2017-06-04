@@ -15,7 +15,7 @@
 	"pdf" : 8,
   "scm" : "http://nms.kcl.ac.uk/kevin.lano/uml2web/persons2fam.zip",
   "slides" : "",
-	"opponents": [2,4]
+	"opponents": [2,5]
     },
     {
 	"tool" : "SDMLib",
@@ -24,7 +24,7 @@
 	"pdf" : 9,
   "scm" : "",
   "slides" : "",
-	"opponents": [3,5]
+	"opponents": [3,4]
     },
     {
 	"tool" : "FunnyQT",
