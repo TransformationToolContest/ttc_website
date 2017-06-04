@@ -33,7 +33,7 @@
 	"pdf" : 13,
   "scm" : "https://github.com/tsdh/ttc17-families2persons-bx",
   "slides" : "",
-	"opponents": [0,5]
+	"opponents": [1,2]
     },
     {
 	"tool" : "EVL+Strace",
@@ -42,7 +42,7 @@
   "scm" : "http://lsamimi.ir/EVLStrace.htm",
 	"pdf" : 14,
   "slides" : "",
-	"opponents": [0,1]
+	"opponents": [0,5]
     },
     {
 	"tool" : "Yage",
@@ -51,6 +51,6 @@
   "scm": "",
 	"pdf" : 16,
   "slides" : "",
-	"opponents": [2,4]
+	"opponents": [0,4]
     }
 ]
