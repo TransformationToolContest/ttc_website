@@ -22,7 +22,7 @@
 	"authors" : "Albert Zündorf and Alexander Weidt",
 	"share" : "",
 	"pdf" : 9,
-  "scm" : "",
+  "scm" : "https://github.com/sekassel/benchmarx",
   "slides" : "",
 	"opponents": [3,4]
     },
@@ -48,7 +48,7 @@
 	"tool" : "Yage",
 	"authors" : "Simon-Lennert Räsch et al.",
 	"share" : "",
-  "scm": "",
+  "scm": "https://github.com/fujaba/benchmarx",
 	"pdf" : 16,
   "slides" : "",
 	"opponents": [0,4]

@@ -22,7 +22,7 @@
 	"authors" : "Alexander Weidt and Albert Zündorf",
 	"share" : "",
 	"pdf" : 11,
-  "scm" : "",
+  "scm" : "https://gitlab.com/BiggA94/StateElimination",
   "slides" : "",
 	"opponents": [0,3]
     },
@@ -39,7 +39,7 @@
 	"tool" : "Yage",
 	"authors" : "Simon-Lennert Raesch et al.",
 	"share" : "",
-  "scm" : "",
+  "scm" : "https://github.com/fujaba/org.fujaba.graphengine/tree/ttc-state",
 	"pdf" : 15,
   "slides" : "",
 	"opponents": [1,2]
