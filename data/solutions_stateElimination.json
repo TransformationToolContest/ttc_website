@@ -5,7 +5,7 @@
 	"share" : "",
 	"pdf" : 7,
   "scm" : "https://github.com/georghinkel/state-elimination-mt",
-  "slides" : "",
+  "slides" : "solutions/stateElimination/2017_TTC_StateEliminationNMF.pdf",
 	"opponents": [1,3]
     },
     {
@@ -23,7 +23,7 @@
 	"share" : "",
 	"pdf" : 11,
   "scm" : "https://gitlab.com/BiggA94/StateElimination",
-  "slides" : "",
+  "slides" : "solutions/stateElimination/TTC2017_StateElimination_SDMLib.pdf",
 	"opponents": [0,3]
     },
     {
@@ -32,7 +32,7 @@
 	"share" : "",
 	"pdf" : 12,
   "scm" : "https://github.com/MSharbaf/TTC2017-StateElimination",
-  "slides" : "",
+  "slides" : "solutions/stateElimination/TTC17_StateElimination_Epsilon.pdf",
 	"opponents": [2,4]
     },
     {
@@ -41,7 +41,7 @@
 	"share" : "",
   "scm" : "https://github.com/fujaba/org.fujaba.graphengine/tree/ttc-state",
 	"pdf" : 15,
-  "slides" : "",
+  "slides" : "solutions/stateElimination/ttc_yage_2017_state.pdf",
 	"opponents": [1,2]
     }
 ]

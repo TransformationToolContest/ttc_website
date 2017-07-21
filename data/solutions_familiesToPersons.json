@@ -5,7 +5,7 @@
 	"share" : "",
 	"pdf" : 6,
   "scm" : "https://github.com/georghinkel/benchmarx",
-  "slides" : "",
+  "slides" : "solutions/familiesToPersons/2017_TTC_Families2PersonsNMF.pdf",
 	"opponents": [1,3]
     },
     {
@@ -14,7 +14,7 @@
 	"share" : "",
 	"pdf" : 8,
   "scm" : "http://nms.kcl.ac.uk/kevin.lano/uml2web/persons2fam.zip",
-  "slides" : "",
+  "slides" : "solutions/familiesToPersons/ttc17-rsds.pdf",
 	"opponents": [2,5]
     },
     {
@@ -32,7 +32,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=Ubuntu12LTS_BenchmarX_FunnyQT2.vdi",
 	"pdf" : 13,
   "scm" : "https://github.com/tsdh/ttc17-families2persons-bx",
-  "slides" : "",
+  "slides" : "https://youtu.be/NnE9LnmKqLs",
 	"opponents": [1,5]
     },
     {
@@ -41,7 +41,7 @@
 	"share" : "",
   "scm" : "http://lsamimi.ir/EVLStrace.htm",
 	"pdf" : 14,
-  "slides" : "",
+  "slides" : "solutions/familiesToPersons/TTC17-BxEVLStrace.pdf",
 	"opponents": [0,2]
     },
     {
@@ -50,7 +50,7 @@
 	"share" : "",
   "scm": "https://github.com/fujaba/benchmarx",
 	"pdf" : 16,
-  "slides" : "",
+  "slides" : "solutions/familiesToPersons/ttc_yage_2017_fam.pdf",
 	"opponents": [0,4]
     }
 ]
