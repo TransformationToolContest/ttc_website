@@ -1,3 +1,5 @@
 [
-	{"tool": "NTL (reference solution)", "authors": "Georg Hinkel"}
+	{"tool": "NTL (reference solution)", "authors": "Georg Hinkel"},
+	{"tool": "ATL", "authors": "Frédéric Jouault, Massimo Tisi and Manuel Wimmer"}
+	{"tool": "Epsilon", "authors": "Dimitris Kolovos"}
 ]
