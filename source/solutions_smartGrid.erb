@@ -22,42 +22,80 @@
         <thead>
           <tr>
             <!-- <th>
-              Presentation<br/>
-            </th> -->
-            <th>Tool</th>
-            <th>Authors</th>
-            <th>Artefacts</th>
-            <th>Opponents</th>
+                 Presentation<br/>
+                 </th> -->
+                 <th>Tool</th>
+                 <th>Authors</th>
+                 <th>Artefacts</th>
+                 <th>Opponents</th>
           </tr>
         </thead>
         <tbody>
           <% solutions.each_with_index do |solution, index| %>
-            <tr>
-              <!-- <td>
-              </td> -->
-              <td><strong><%=solution.tool%></strong></td>
-              <td><%=solution.authors%></td>
-              <td>
-                <a href="solutions/smartGrid/TTC_2017_paper_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
+          <tr>
+            <!-- <td>
+                 </td> -->
+            <td><strong><%=solution.tool%></strong></td>
+            <td><%=solution.authors%></td>
+            <td>
+              <a href="solutions/smartGrid/TTC_2017_paper_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
 
-                <% if solution.share.empty? %>
-                  <strong>No SHARE demo</strong>
-                <% else %>
-                  <a href="<%=solution.share%>">SHARE Demo</a>
-                <% end %>
-                <br/>
-                <% if solution.scm.empty? %>
-                  <strong>No SCM</strong>
-                <% else %>
-                  <a href="<%=solution.scm%>">SCM</a>
-                <% end %>
-              </td>
-              <td>
-                <%=solution.opponents.map { |index| solutions[index].authors }.join("<br/>")%>
-              </td>
-            </tr>
+              <% if solution.share.empty? %>
+              <strong>No SHARE demo</strong>
+              <% else %>
+              <a href="<%=solution.share%>">SHARE Demo</a>
+              <% end %>
+              <br/>
+              <% if solution.scm.empty? %>
+              <strong>No SCM</strong>
+              <% else %>
+              <a href="<%=solution.scm%>">SCM</a>
+              <% end %>
+            </td>
+            <td>
+              <%=solution.opponents.map { |index| solutions[index].authors }.join("<br/>")%>
+            </td>
+          </tr>
           <% end %>
         </tbody>
       </table>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Awards</h3>
+      <p>The solutions were scored at the contest, resulting in the following awards:</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <a href="images/raven_logo.png" class="thumbnail">
+        <img src="images/raven_logo.png" style="height: 195px"/>
+      </a>
+      <div class="caption">
+        <h6>Best Overall: NMF</h6>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <a href="images/awards/smartgrid-understandable.jpg" class="thumbnail">
+        <img src="images/awards/smartgrid-understandable.jpg"/>
+      </a>
+      <div class="caption">
+        <h6>Most Understandable: eMoflon</h6>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <a href="images/raven_logo.png" class="thumbnail">
+        <img src="images/raven_logo.png" style="height: 195px"/>
+      </a>
+      <div class="caption">
+        <h6>Best Performance: NMF</h6>
+      </div>
+    </div>
+  </div>
+
+</div>

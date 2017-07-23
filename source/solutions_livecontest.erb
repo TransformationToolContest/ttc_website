@@ -1,0 +1,78 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <h3>Solutions to the Live Contest</h3>
+      <% solutions = data.solutions_liveContest  %>
+
+      Case resources:
+      <ul>
+        <li><a href="https://github.com/georghinkel/ttc2017LiveContest">Description and case resources</a> (Github repository)</li>
+        <li><a href="https://github.com/georghinkel/ttc2017LiveContest/issues">Discussion of solutions and open peer reviews</a> (Github issue tracker)</li>
+        <li><a href="https://goo.gl/forms/jUSUVZ2ZCQoMOcjF3">Evaluation form</a> (Google Forms)</li>
+      </ul>
+
+      <p>The following <%=solutions.size%> solutions were submitted:</p>
+
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <!-- <th>
+                 Presentation<br/>
+                 </th> -->
+            <th>Tool</th>
+            <th>Authors</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% solutions.each_with_index do |solution, index| %>
+          <tr>
+            <!-- <td>
+                 </td> -->
+            <td><strong><%=solution.tool%></strong></td>
+            <td><%=solution.authors%></td>
+          </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Awards</h3>
+      <p>The solutions were scored at the contest, resulting in the following awards:</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <a href="images/awards/live-overall.jpg" class="thumbnail">
+        <img src="images/awards/live-overall.jpg" />
+      </a>
+      <div class="caption">
+        <h6>Best Overall: Epsilon</h6>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <a href="images/awards/live-reuse.jpg" class="thumbnail">
+        <img src="images/awards/live-reuse.jpg"/>
+      </a>
+      <div class="caption">
+        <h6>Best Reuse: Epsilon</h6>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <a href="images/awards/live-performance.jpg" class="thumbnail">
+        <img src="images/awards/live-performance.jpg" />
+      </a>
+      <div class="caption">
+        <h6>Best Performance: ATLOnly</h6>
+      </div>
+    </div>
+  </div>
+
+</div>
