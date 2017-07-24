@@ -14,7 +14,7 @@
 	"share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=ConfigureNewSession&vdi=XP-TUe_TTC16_NMF_mrttc16_stateelim-henshin-ttc16.vdi",
 	"pdf" : 10,
   "scm" : "https://github.com/dstrueber/stateelim-henshin",
-  "slides" : "",
+  "slides" : "solutions/stateElimination/henshin.pptx",
 	"opponents": [0,4]
     },
     {

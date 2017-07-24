@@ -39,7 +39,12 @@
             <td><%=solution.authors%></td>
             <td>
               <a href="solutions/familiesToPersons/TTC_2017_paper_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
-
+              <% if solution.slides.empty? %>
+                  <strong>No slides</strong>
+              <% else %>
+                  <a href="<%=solution.slides%>">Slides</a>
+              <% end %>
+              <br/>
               <% if solution.share.empty? %>
               <strong>No SHARE demo</strong>
               <% else %>
