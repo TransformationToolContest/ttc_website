@@ -23,7 +23,7 @@
 	"share" : "",
 	"pdf" : 9,
   "scm" : "https://github.com/sekassel/benchmarx",
-  "slides" : "",
+  "slides" : "solutions/familiesToPersons/sdmlib.pptx",
 	"opponents": [3,4]
     },
     {
