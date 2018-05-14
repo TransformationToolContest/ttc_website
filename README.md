@@ -9,14 +9,14 @@ that, clone this Git repository, and run `bundle install` in the resulting direc
 
 The following workflow is used to make changes to the website:
 
-1. Run `middleman` to start a development server.
+1. Run `bundle exec middleman` to start a development server.
 2. Edit the source code until you are happy with your changes.
 3. Commit your changes to the Git repository and push them to Github (`git push origin`).
 
 If you also wish to deploy your changes to the live website then:
 
-4. Run `middleman build`, which will create HTML / CSS / JS in the build directory.
-5. Run `middleman deploy`, which will switch the production server to the newly built website.
+4. Run `bundle exec middleman build`, which will create HTML / CSS / JS in the build directory.
+5. Run `bundle exec middleman deploy`, which will switch the production server to the newly built website.
 
 ## Notes
 
@@ -24,4 +24,4 @@ We currently serve the live website from our [Github Pages repository](https://g
 for the TransformationToolContext organisation. It can take a few minutes for Github Pages to update.
 
 Our domain name (http://transformation-tool-contest.eu) is registered via DNSimple. 
-Louis has the account details.
+Antonio has the account details.
