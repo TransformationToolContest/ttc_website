@@ -36,12 +36,12 @@
             <td><%=solution.authors%></td>
             <td>
               <a href="solutions/familiesToPersons/TTC_2017_paper_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
-              <% if solution.slides.empty? %>
+              <!--<% if solution.slides.empty? %>
                   <strong>No slides</strong>
               <% else %>
                   <a href="<%=solution.slides%>">Slides</a>
               <% end %>
-              <br/>
+              <br/>-->
               <% if solution.share.empty? %>
               <strong>No SHARE demo</strong>
               <% else %>
@@ -63,63 +63,4 @@
       </table>
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <h3>Awards</h3>
-      <p>The solutions were scored at the contest, resulting in the following awards:</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-4">
-      <a href="images/awards/f2p-overall.jpg" class="thumbnail">
-        <img src="images/awards/f2p-overall.jpg" style="height: 217px" />
-      </a>
-      <div class="caption">
-        <h6>Best Overall: SDMLib</h6>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-4">
-      <a href="images/awards/f2p-audience-evl_strace.jpg" class="thumbnail">
-        <img src="images/awards/f2p-audience-evl_strace.jpg"/>
-      </a>
-      <div class="caption">
-        <h6>Audience Award (tie): EVL+Strace</h6>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <a href="images/awards/f2p-audience-sdmlib.jpg" class="thumbnail">
-        <img src="images/awards/f2p-audience-sdmlib.jpg" style="height: 217px" />
-      </a>
-      <div class="caption">
-        <h6>Audience Award (tie): SDMLib</h6>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-4">
-      <a href="images/awards/f2p-complete-evl_strace.jpg" class="thumbnail">
-        <img src="images/awards/f2p-complete-evl_strace.jpg" />
-      </a>
-      <div class="caption">
-        <h6>Most Complete (tie): EVL+Strace</h6>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <a href="images/awards/f2p-complete-sdmlib.jpg" class="thumbnail">
-        <img src="images/awards/f2p-complete-sdmlib.jpg" />
-      </a>
-      <div class="caption">
-        <h6>Most Complete (tie): SDMLib</h6>
-      </div>
-    </div>
-  </div>
-
 </div>
