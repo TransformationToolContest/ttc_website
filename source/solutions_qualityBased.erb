@@ -43,7 +43,11 @@
               <% end %>
               <br/>-->
               <% if solution.share.empty? %>
-              <strong>No SHARE demo</strong>
+                  <% if solution.docker.empty? %>
+                      <strong>No SHARE or Docker demo</strong>
+                  <% else %>
+                      <a href="<%=solution.docker%>">Docker Demo</a>
+                  <% end %>
               <% else %>
               <a href="<%=solution.share%>">SHARE Demo</a>
               <% end %>

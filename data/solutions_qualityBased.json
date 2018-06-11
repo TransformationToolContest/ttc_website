@@ -1,29 +1,32 @@
 [
     {
-	"tool" : "EMFeR",
-	"authors" : "Christoph Eickhoff, Simon-Lennert Raesch and Albert Zuendorf",
-	"share" : "",
-	"pdf" : 2,
-  "scm" : "https://github.com/fujaba/EMFeRTTC18",
-  "slides" : "",
-	"opponents": [1,2]
+	      "tool" : "EMFeR",
+	      "authors" : "Christoph Eickhoff, Simon-Lennert Raesch and Albert Zuendorf",
+	      "share" : "",
+        "docker": "https://hub.docker.com/r/eicke123/emferttc18/",
+	      "pdf" : 2,
+        "scm" : "https://github.com/fujaba/EMFeRTTC18",
+        "slides" : "",
+	      "opponents": [1,2]
     },
     {
-	"tool" : "ACO",
-	"authors" : "Samaneh Hoseindoost, Meysam Karimi, Shekoufeh Kolahdouz Rahimi and Bahman Zamani",
-	"share" : "",
-	"pdf" : 3,
-  "scm" : "",
-  "slides" : "",
-	"opponents": [0,2]
+	      "tool" : "ACO",
+	      "authors" : "Samaneh Hoseindoost, Meysam Karimi, Shekoufeh Kolahdouz Rahimi and Bahman Zamani",
+	      "share" : "",
+        "docker": "",
+	      "pdf" : 3,
+        "scm" : "",
+        "slides" : "",
+	      "opponents": [0,2]
     },
     {
-	"tool" : "JastAdd + ILP",
-	"authors" : "Sebastian Götz, Johannes Mey, René Schöne and Uwe Assmann",
-	"share" : "",
-  "scm" : "https://git-st.inf.tu-dresden.de/stgroup/ttc18",
-	"pdf" : 4,
-  "slides" : "",
-	"opponents": [0,1]
+	      "tool" : "JastAdd + ILP",
+	      "authors" : "Sebastian Götz, Johannes Mey, René Schöne and Uwe Assmann",
+	      "share" : "",
+        "docker": "",
+        "scm" : "https://git-st.inf.tu-dresden.de/stgroup/ttc18",
+	      "pdf" : 4,
+        "slides" : "",
+	      "opponents": [0,1]
     }
 ]
