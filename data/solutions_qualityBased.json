@@ -12,10 +12,10 @@
     {
 	      "tool" : "ACO",
 	      "authors" : "Samaneh Hoseindoost, Meysam Karimi, Shekoufeh Kolahdouz Rahimi and Bahman Zamani",
-	      "share" : "",
+	      "share" : "http://is.ieis.tue.nl/staff/pvgorp/share/?page=MyVirtualDiskImageBanners#XP-TUe_TTC18-ACO.vdi",
         "docker": "",
 	      "pdf" : 3,
-        "scm" : "",
+        "scm" : "https://github.com/Ariyanic/TTC18",
         "slides" : "",
 	      "opponents": [0,2]
     },
