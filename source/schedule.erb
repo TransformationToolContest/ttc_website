@@ -4,7 +4,7 @@
     <div class="col-md-8">
 
       <h3>Programme</h3>
-      <p>As TTC is a contest and not a workshop or conference, it has a rather unusual format. The morning of the contest will be used to score the solutions to the State Elimination case and the FamiliesToPersons case. The afternoon of the contest will be used to score solutions to the Smart Grid case and the live contest (a transformation problem that will be announced on <strong>Monday 17th July</strong>). The purpose of the morning and afternoon sessions is the same: to present your solution, score the solutions of others, and to determine an overall winner in each category.</p>
+      <p>As TTC is a contest and not a workshop or conference, it has a rather unusual format. The morning of the contest will be used to score the solutions to the Quality-based Software Selection and Hardware-Mapping case. The afternoon of the contest will be used to score solutions to the live contest (a transformation problem that will be announced on <strong>Monday 25 June</strong>). The purpose of the morning and afternoon sessions is the same: to present your solution, score the solutions of others, and to determine an overall winner in each category.</p>
       <br/>
 
       <h4>Monday 25th June &mdash; Thursday 28th June</h4>
@@ -33,10 +33,9 @@
               <strong>09.10</strong>
             </td>
             <td>
-              <strong>Introduction to the State Elimination case study</strong>
+              <strong>Introduction to the Quality-based Software Selection and Hardware Mapping case study</strong>
               <br/>
-              <a href="TTC_2017_paper_4.pdf">PDF</a>
-
+              <a href="TTC18_paper_1.pdf">PDF</a>
             </td>
           </tr>
 
@@ -51,13 +50,17 @@
                   <em>
                     Opponents: <%=cra_solution.opponents.map { |index| data.solutions_qualityBased[index].authors }.join(", ")%>
                   </em><br/><br/>
-                  <a href="solutions/stateElimination/TTC_2017_paper_<%=cra_solution.pdf%>.pdf">PDF Description</a> |
+                  <a href="TTC18_paper_<%=cra_solution.pdf%>.pdf">PDF Description</a> |
                   <% if cra_solution.share.empty? %>
-                    <strong>No SHARE demo</strong>
+                      <% if cra_solution.docker.empty? %>
+                          <strong>No SHARE or Docker demo</strong>
+                      <% else %>
+                          <a href="<%=cra_solution.docker%>">Docker Demo</a>
+                      <% end %>
                   <% else %>
-                    <a href="<%=cra_solution.share%>">SHARE Demo</a>
+                      <a href="<%=cra_solution.share%>">SHARE Demo</a>
                   <% end %>
-                  |
+                  <br/>
                   <% if cra_solution.scm.empty? %>
                     <strong>No Source Code</strong>
                   <% else %>
@@ -75,137 +78,53 @@
 
             <tr>
               <td>
-                <strong>10.35</strong>
+                <strong>10.30</strong>
               </td>
               <td colspan="2">
                 <strong>Coffee Break</strong>
               </td>
             </tr>
-          <tr>
-            <td>
-              <strong>11.00</strong>
-            </td>
-            <td>
-              <strong>Introduction to the FamiliesToPersons case study</strong>
-              <br/>
-              <a href="TTC_2017_paper_2.pdf">PDF</a>
-              <a href="ttc-2017-benchmarx.pdf">Slides</a>
-            </td>
-          </tr>
 
-            <% data.schedule_morning.drop(5).take(6).each do |slot| %>
-              <%
-                cra_solution = data.solutions_qualityBased[slot.f2p]
-              %>
-              <tr>
-                <td><strong><%=slot.time%></strong></td>
+            <tr>
                 <td>
-                  <strong><%=cra_solution.tool%> - <%=cra_solution.authors%></strong><br/>
-                  <em>
-                    Opponents: <%=cra_solution.opponents.map { |index| data.solutions_qualityBased[index].authors }.join(", ")%>
-                  </em><br/><br/>
-                  <a href="solutions/familiesToPersons/TTC_2017_paper_<%=cra_solution.pdf%>.pdf">PDF Description</a> |
-                  <% if cra_solution.share.empty? %>
-                    <strong>No SHARE demo</strong>
-                  <% else %>
-                    <a href="<%=cra_solution.share%>">SHARE Demo</a>
-                  <% end %>
-                  |
-                  <% if cra_solution.scm.empty? %>
-                    <strong>No Source Code</strong>
-                  <% else %>
-                    <a href="<%=cra_solution.scm%>">Source Code</a>
-                  <% end %>
-                  |
-                  <% if cra_solution.slides.empty? %>
-                    No Slides
-                  <% else %>
-                    <a href="<%=cra_solution.slides%>">Slides</a>
-                  <% end %>
+                    <strong>11.00</strong>
                 </td>
-              </tr>
-            <% end %>
-
+                <td>
+                    <strong>Introduction to the Live Contest and solutions</strong>
+                    <br/>
+                    To be announced!
+                    <!-- <a href="2018_TTC_Live.pdf">Slides</a> -->
+                </td>
+            </tr>
 
             <tr>
               <td>
-                <strong>12.40</strong>
+                <strong>12.30</strong>
               </td>
               <td colspan="2">
                 <strong>Lunch</strong>
               </td>
             </tr>
-          <tr>
-            <td>
-              <strong>14.00</strong>
-            </td>
-            <td>
-              <strong>Introduction to the Smart Grid case study</strong>
-              <br/>
-              <a href="TTC_2017_paper_1.pdf">PDF</a>
-              <a href="2017_TTC_SmartGrid.pdf">Slides</a>
-            </td>
-          </tr>
 
-
-            <% data.schedule_morning.drop(11).each do |slot| %>
-              <%
-                cra_solution = data.solutions_qualityBased[slot.smart]
-              %>
-              <tr>
-                <td><strong><%=slot.time%></strong></td>
-                <td>
-                  <strong><%=cra_solution.tool%> - <%=cra_solution.authors%></strong><br/>
-                  <em>
-                    Opponents: <%=cra_solution.opponents.map { |index| data.solutions_qualityBased[index].authors }.join(", ")%>
-                  </em><br/><br/>
-                  <a href="solutions/smartGrid/TTC_2017_paper_<%=cra_solution.pdf%>.pdf">PDF Description</a> |
-                  <% if cra_solution.share.empty? %>
-                    <strong>No SHARE demo</strong>
-                  <% else %>
-                    <a href="<%=cra_solution.share%>">SHARE Demo</a>
-                  <% end %>
-                  |
-                  <% if cra_solution.scm.empty? %>
-                    <strong>No Source Code</strong>
-                  <% else %>
-                    <a href="<%=cra_solution.scm%>">Source Code</a>
-                  <% end %>
-                  |
-                  <% if cra_solution.slides.empty? %>
-                    No Slides
-                  <% else %>
-                    <a href="<%=cra_solution.slides%>">Slides</a>
-                  <% end %>
-                </td>
-              </tr>
-            <% end %>
-          <tr>
-            <td>
-              <strong>14.40</strong>
-            </td>
-            <td>
-              <strong>Introduction to the Live Contest and solutions</strong>
-              <a href="2017_TTC_Live.pdf">Slides</a>
-            </td>
-          </tr>
             <tr>
               <td>
-                <strong>16.00</strong>
+                <strong>14.30</strong>
               </td>
               <td>
                 <strong>Awards and Wrap Up</strong>
               </td>
             </tr>
+
             <tr>
               <td>
-                <strong>16.30</strong>
+                <strong>15.00</strong>
               </td>
               <td>
                 <strong>Contest ends</strong>
               </td>
             </tr>
-          </tbody>
+
+        </tbody>
         </table>
       </div>
   </div>
