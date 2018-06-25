@@ -1,0 +1,36 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <h3>Solutions to the Social Media Live Case</h3>
+            <% solutions = data.solutions_liveContest  %>
+
+            Case resources:
+            <ul>
+                <li><a href="https://github.com/TransformationToolContest/ttc2018liveContest">Description and case resources</a> (Github repository)</li>
+                <li><a href="https://github.com/TransformationToolContest/ttc2018liveContest/raw/master/docs/2018_TTC_Live.pdf">Case description</a></li>
+                <li><a href="https://github.com/TransformationToolContest/ttc2018liveContest/issues">Discussion of solutions and open peer reviews</a> (Github issue tracker)</li>
+            </ul>
+
+            <p>The following <%=pluralize(solutions.size, 'solution')%> <%= solutions.size > 1 ? 'were' : 'was' %> submitted:</p>
+
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Tool</th>
+                        <th>Authors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% solutions.each_with_index do |solution, index| %>
+                        <tr>
+                            <td><strong><%=solution.tool%></strong></td>
+                            <td><%=solution.authors%></td>
+                        </tr>
+                    <% end %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
