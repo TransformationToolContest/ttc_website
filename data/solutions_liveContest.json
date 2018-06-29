@@ -1,12 +1,15 @@
 [
+    {"tool": "ATL-OCL", "authors": "Massimo Tisi"},
+    {"tool": "Active Operations Framework", "authors": "Frederic Jouault"},
 	  {"tool": "Hawk (optimised update and query)", "authors": "Antonio Garcia-Dominguez"},
 	  {"tool": "Hawk (optimised update)", "authors": "Antonio Garcia-Dominguez"},
 	  {"tool": "Hawk (save and reindex)", "authors": "Antonio Garcia-Dominguez"},
 	  {"tool": "JastAdd", "authors": "Rene Schoene"},
 	  {"tool": "NMF (incremental)", "authors": "Georg Hinkel"},
 	  {"tool": "NMF (parallel)", "authors": "Georg Hinkel"},
+    {"tool": "NMF (reference solution)", "authors": "Georg Hinkel"},
 	  {"tool": "NMF (transactions)", "authors": "Georg Hinkel"},
 	  {"tool": "YAMTL (solution A)", "authors": "Artur Boronat"},
 	  {"tool": "YAMTL (solution B)", "authors": "Artur Boronat"},
-    {"tool": "NMF (reference solution)", "authors": "Georg Hinkel"}
+    {"tool": "Xtend", "authors": "Valentin Besnard"}
 ]
