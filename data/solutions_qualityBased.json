@@ -6,7 +6,7 @@
         "docker": "https://hub.docker.com/r/eicke123/emferttc18/",
 	      "pdf" : 2,
         "scm" : "https://github.com/fujaba/EMFeRTTC18",
-        "slides" : "",
+        "slides" : "slides-qualityBased-emfer.pdf",
 	      "opponents": [1,2]
     },
     {
@@ -16,7 +16,7 @@
         "docker": "",
 	      "pdf" : 3,
         "scm" : "https://github.com/Ariyanic/TTC18",
-        "slides" : "",
+        "slides" : "slides-qualityBased-aco.pdf",
 	      "opponents": [0,2]
     },
     {
@@ -26,7 +26,7 @@
         "docker": "",
         "scm" : "https://git-st.inf.tu-dresden.de/stgroup/ttc18",
 	      "pdf" : 4,
-        "slides" : "",
+        "slides" : "slides-qualityBased-ilp.pdf",
 	      "opponents": [0,1]
     }
 ]

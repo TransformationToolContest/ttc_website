@@ -26,7 +26,7 @@
                 <tbody>
                     <% solutions.each_with_index do |solution, index| %>
                         <tr>
-                            <td><strong><%=solution.tool%></strong></td>
+                            <td><strong><%=solution.tool%></strong> <% if not solution.slides.empty? %><a href="<%=solution.slides%>">Slides</a><% end %></td>
                             <td><%=solution.authors%></td>
                         </tr>
                     <% end %>
