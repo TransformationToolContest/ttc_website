@@ -9,7 +9,7 @@
     {"tool": "NMF (parallel)", "authors": "Georg Hinkel", "slides": ""},
     {"tool": "NMF (reference solution)", "authors": "Georg Hinkel", "slides": ""},
     {"tool": "NMF (transactions)", "authors": "Georg Hinkel", "slides": ""},
-    {"tool": "YAMTL (solution A)", "authors": "Artur Boronat", "slides": ""},
-    {"tool": "YAMTL (solution B)", "authors": "Artur Boronat", "slides": ""},
+    {"tool": "YAMTL (solution A)", "authors": "Artur Boronat", "slides": "slides-live-yamtl.pdf"},
+    {"tool": "YAMTL (solution B)", "authors": "Artur Boronat", "slides": "slides-live-yamtl.pdf"},
     {"tool": "Xtend", "authors": "Valentin Besnard", "slides": ""}
 ]
