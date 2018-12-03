@@ -4,95 +4,35 @@
     <div class="col-md-8">
 
       <h3>Call for Cases</h3>
-      <p>In order to facilitate the
-        comparison of transformation tools, we are soliciting potential
-        case studies. Specific areas of transformation case studies relevant
-        to TTC are described on our <%= link_to 'aims and scope page', '/aims_and_scope.html' %>. If you have a suitable case study, please
-        describe it shortly but as detailed as needed and submit it to
-        the online submission system. Please include a reference
-        solution to your case to support the evaluation of the
-        correctness of submitted solutions.</p>
 
-      <p>Our program committee will select a small, but representative
-        set of case studies to be used for the contest. Case
-        descriptions should answer the following questions:</p>
+      <h4>What is this about?</h4>
 
-      <ul>
-        <li>What is the context of the case?
-          (provide a short description and references)</li>
+      <p>Transformations of structured data such as relational data, abstract syntax trees, graphs and high-level software models are at the heart of a wide range of applications. Their success heavily depends on the availability of powerful and easy-to-use tools. There is an increasingly large number of transformation tools that follow many different approaches, and this creates challenges for the community at large. Users and tool experts may have missed a recent development in the area, and they may not use the best tool for the job. Tool developers may wish to compare their tool against others, but risk the threat to validity that they may not be using the other tools to their full extent.</p>
 
-        <ul>
-          <li>What is the subject to be modeled?
-          (what are the input and output modeling languages?)</li>
+      <p>The Transformation Tools Contest aims to help users, experts and tool developers to learn about the state-of-the-art through practical case studies. While some of these case studies may revisit well-known transformations, we are always looking for new case studies from the community that look at the bleeding edge in the field or challenge current tools in some way. If you have an interesting transformation problem in hand, or if you know about one, we would like to hear about it! We mention some specific areas that we consider relevant to TTC in our <%= link_to 'aims and scope page', '/aims_and_scope.html' %>.</p>
 
-          <li>What is the purpose of the models?
-          (what are they typically used for from a larger
-          perspective than the proposed case study?)</li>
-        </ul>
+      <h4>Case submission</h4>
 
-        <li>What are variation points in the case?
-          (divide up your case in core characteristics
-          and extensions)</li>
+      <p>By March 25th 2019, please submit your case description in PDF format through <a href="http://easychair.org/conferences/?conf=ttc19">EasyChair</a>. The case description should include a URL to a source code repository (e.g. GitHub, Bitbucket, GitLab) that contains a reference solution and an evaluation methodology, and a basic issue tracker that solution authors may use to ask questions about the case study. For the evaluation methodology, you are welcome to draw from past case studies. If you have an idea for a case study but do not know where to start or which previous case to base it on, feel free to start a discussion with us at <code>ttc19 AT easychair DOT org</code>.</p>
 
-        <li>What are the criteria for evaluating the submitted solutions
-          to the case?</li>
+      <p>The case description should be in the ACM acmart LaTeX document class (see <a href="http://www.sigplan.org/Resources/Author/">here</a> and <a href="https://www.acm.org/publications/proceedings-template">here</a>), using the "sigconf" style and with the "review" option enabled, and not exceeding 10 pages (excluding references and appendices).</p>
 
-        <li>What should be the prizes for the solutions for the case? Simply
-        1st/2nd/3rd place may be fitting, or Best Overall and then Best X (where
-        X is one of the desired attributes).</li>
-
-        <ul>
-          <li>Correctness test: which are the reference input/ouput
-            documents (models/graphs) and how should they be used?
-            Ideally, a case description includes a testsuite, as well
-            as a test driver (The test driver can be an online web service,
-              or a local script that can be deployed in <a href="http://is.tm.tue.nl/staff/pvgorp/share">SHARE</a>,
-              or a Docker image on <a href="https://hub.docker.com/">Docker Hub</a></li>
-
-          <li>Which transformation tool-related features are important
-            and how can they be classified?
-            (e.g., formal analysis of the transformation program, rule
-            debugging support, ...)
-
-          <li>What transformation language-related challenges are
-            important and how can they be classified?
-            (e.g., declarative bidirectionality, declarative change
-            propagation, declarative subgraph copying, cyclic graph
-            support, typing issues, ...)
-
-          <li>How to measure the quality of submitted solutions, at the
-            design level?
-            (e.g., measure the number of rules, the conciseness of
-            rules, ...)
-        </ul>
-
-        <li>How can the solutions be evaluated (ranked) systematically
-          using information technology?
-          Please provide one of the following:
-
-        <ul>
-          <li>a simple spreadsheet (an evaluation form that can be
-            aggregated easily (See for example <a href="http://goo.gl/QwxTAs">http://goo.gl/QwxTAs</a>),
-
-          <li>a so-called "classification scheme" in ResearchR
-            (See <a href="http://goo.gl/QA7npw">http://goo.gl/QA7npw</a>)
-            (or a similar web 2.0 platform.)
-        </ul>
-      </ul>
-
-      <p>Please submit through <a href="http://www.easychair.org/conferences/?conf=ttc18">EasyChair</a>.
-      Your submission should include:
+      <p>The description should answer these questions:</p>
 
       <ul>
-        <li>
-          a case description answering the above questions in PDF format using the <a href="http://ceur-ws.org/Vol-XXX/samplestyles/?">CEUR-WS style</a>  and not exceeding 10 excluding references and appendices.
-        </li>
-        <li>
-          a URL to a publicly available repository hosting service (e.g., <a href="http://github.com/">github</a>, <a href="http://bitbucket.com/">bitbucket</a>) that contains all test artifacts as well as the evaluation / ranking instrument and any other necessary resources.  The repository hosting should additionally provide a basic issue tracking system to keep track of any problems encountered by solution authors. This link should be referenced in the PDF document. Furthermore, in an appendix within the document should be clearly described all necessary instructions how to evaluate the submission. For example, if the case includes a reference implementation (which is highly recommended), a set of steps to run the implementation should be provided.
-        </li>
+          <li>What is the context of the case?</li>
+          <li>What is the subject to be modeled?</li>
+          <li>What is the purpose of the subject?</li>
+          <li>What are the variation points in the case?</li>
+          <li>Are there any specific research questions you would like to answer through the participation of the community? This may be useful if you have a publication path in mind for the results of the contest.</li>
+          <li>What are the criteria for evaluating the submitted solutions to the case?</li>
+          <li>What should be the prizes for the case? Usually, there may be one or more  "Best X" (where X is a desired attribute), and then a "Best Overall" solution with the best balance between all attributes.</li>
+          <li>Correctness test: which are the reference input/ouput documents and how should they be used? Ideally, a case description includes a test suite, as well as a test driver. The test driver can be an online web service, a local script that can be deployed in <a href="https://is.ieis.tue.nl/staff/pvgorp/share/">SHARE</a>, or a Docker image on Docker Hub. You can reuse frameworks from past case studies - feel free to ask us!</li>
+          <li>Which transformation tool-related features are important and how can they be classified? (e.g., formal analysis of the transformation program, rule debugging support, ...)</li>
+          <li>What transformation language-related challenges are important and how can they be classified? (e.g., declarative bidirectionality, declarative change propagation, declarative subgraph copying, cyclic graph support, typing issues, ...)</li>
+          <li>How to measure the quality of submitted solutions, at the design level? (e.g., measure the number of rules, the conciseness of rules, ...)</li>
+          <li>How can the solutions be evaluated (ranked) systematically?</li>
       </ul>
-
-      <p>The deadline for cases will be in early Spring 2019.</p>
 
       <h4>Subsequent Phases</h4>
       <p>Following the selection of a subset of the submitted cases by our
