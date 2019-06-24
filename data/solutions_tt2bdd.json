@@ -1,0 +1,73 @@
+[
+    {
+	      "tool" : "ATL (non-reference)",
+	      "authors" : "Dennis Wagelaar, Théo Le Calvar and Frédéric Jouault",
+        "scm" : "https://github.com/dwagelaar/ttc2019-tt2bdd",
+	      "pdf" : 7,
+        "slides": "",
+        "share": "",
+        "docker": "",
+        "opponents": [0,1]
+    },
+    {
+	      "tool" : "Fulib",
+	      "authors" : "Albert Zuendorf",
+	      "pdf" : 2,
+        "slides": "",
+        "share": "",
+        "docker": "",
+        "scm" : "https://github.com/azuendorf/FulibSolutionTTC2019",
+        "docker" : "https://hub.docker.com/r/zuendorf/fulib-solution-ttc2019",
+	      "opponents": [2,3]
+    },
+    {
+	      "tool" : "JastAdd",
+	      "authors" : "Johannes Mey, René Schöne, Christopher Werner and Uwe Assmann",
+        "scm" : "https://git-st.inf.tu-dresden.de/ttc/bdd",
+        "slides": "",
+        "share": "",
+        "docker": "",
+	      "pdf" : 4,
+	      "opponents": [4,5]
+    },
+    {
+	      "tool" : "MEEDUSE",
+	      "authors" : "Akram Idani, German Vega and Michael Leuschel",
+        "scm" : "https://github.com/meeduse/Meeduse_TTC_2019",
+        "slides": "",
+        "share": "",
+        "docker": "",
+	      "pdf" : 5,
+	      "opponents": [5,6]
+    },
+    {
+	      "tool" : "NMF",
+	      "authors" : "Georg Hinkel",
+	      "pdf" : 1,
+        "scm" : "https://github.com/georghinkel/ttc2019-tt2bdd",
+        "slides": "",
+        "share": "",
+        "docker": "",
+	      "opponents": [1,2]
+    },
+    {
+	      "tool" : "SCROLL",
+	      "authors" : "Christopher Werner, Rico Bergmann, Johannes Mey, René Schöne and Uwe Assmann",
+        "scm" : "https://git-st.inf.tu-dresden.de/ttc/bdd",
+        "slides": "",
+        "share": "",
+        "docker": "",
+	      "pdf" : 6,
+	      "opponents": [6,0]
+    },
+    {
+	      "tool" : "YAMTL",
+	      "authors" : "Artur Boronat",
+        "scm" : "https://github.com/arturboronat/ttc2019-tt2bdd/tree/master/solutions/EMFSolutionYAMTL/",
+        "slides": "",
+        "share": "",
+        "docker": "",
+	      "pdf" : 3,
+	      "opponents": [3,4]
+    }
+]

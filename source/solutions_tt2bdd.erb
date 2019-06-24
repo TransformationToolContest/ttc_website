@@ -3,15 +3,15 @@
   <div class="row">
     <div class="col-md-12">
 
-      <h3>Solutions to the Quality-based Software Selection and Hardware-Mapping</h3>
-      <% solutions = data.solutions_qualityBased  %>
+      <h3>Solutions to the Truth Tables to Binary Decision Diagrams</h3>
+      <% solutions = data.solutions_tt2bdd %>
 
       Case resources:
       <ul>
-        <li><a href="https://git-st.inf.tu-dresden.de/stgroup/ttc18">Description and case resources</a> (Github repository)</li>
-        <li><a href="TTC18_paper_1.pdf">Case presentation</a> (<a href="slides-qualityBased-case.pdf">slides</a>)</li>
-        <li><a href="https://git-st.inf.tu-dresden.de/stgroup/ttc18/issues">Discussion of solutions and open peer reviews</a> (issue tracker)</li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9UZ99-H7b1znZ5LFnKzFSauwEVGOMumxqlsN3UxVsAMUIdQ/viewform">Audience evaluation</a> (Google form)</li>
+          <li><a href="https://github.com/TransformationToolContest/ttc2019-tt2bdd">Description and case resources</a> (Github repository)</li>
+        <li><a href="2019-tt2bdd.pdf">Case description</a></li>
+        <li><a href="https://github.com/TransformationToolContest/ttc2019-tt2bdd/issues">Discussion of solutions and open peer reviews</a> (issue tracker)</li>
+        <% # <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9UZ99-H7b1znZ5LFnKzFSauwEVGOMumxqlsN3UxVsAMUIdQ/viewform">Audience evaluation</a> (Google form)</li> %>
       </ul>
 
       <p>The following <%=solutions.size%> solutions were submitted:</p>
@@ -19,9 +19,6 @@
       <table class="table table-striped table-bordered table-hover">
         <thead>
           <tr>
-            <!-- <th>
-                 Presentation<br/>
-                 </th> -->
             <th>Tool</th>
             <th>Authors</th>
             <th>Artefacts</th>
@@ -31,12 +28,10 @@
         <tbody>
           <% solutions.each_with_index do |solution, index| %>
           <tr>
-            <!-- <td>
-                 </td> -->
             <td><strong><%=solution.tool%></strong></td>
             <td><%=solution.authors%></td>
             <td>
-              <a href="TTC18_paper_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
+              <a href="papers/TTC19_paper_<%=solution.pdf%>.pdf">PDF Description</a> <br/>
               <% if solution.slides.empty? %>
                   <strong>No slides</strong>
               <% else %>
@@ -67,32 +62,34 @@
         </tbody>
       </table>
 
+      <% if false %>
       <div class="row">
-          <div class="col-md-12">
-              <h3>Awards</h3>
-              <p>The solutions were scored at the contest, resulting in the following awards:</p>
-          </div>
+        <div class="col-md-12">
+          <h3>Awards</h3>
+          <p>The solutions were scored at the contest, resulting in the following awards:</p>
+        </div>
       </div>
 
       <div class="row">
-          <div class="col-md-4">
-              <a href="#" class="thumbnail">
-                  <img src="images/award-quality-aco.jpg" style="height: 195px"/>
-              </a>
-              <div class="caption">
-                  <h6>Audience Award: Ant Colony Optimization</h6>
-              </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="images/award-quality-aco.jpg" style="height: 195px"/>
+          </a>
+          <div class="caption">
+            <h6>Audience Award: Ant Colony Optimization</h6>
           </div>
+        </div>
 
-          <div class="col-md-4">
-              <a href="#" class="thumbnail">
-                  <img src="images/award-quality-aco.jpg" style="height: 195px"/>
-              </a>
-              <div class="caption">
-                  <h6>Most Scalable: Ant Colony Optimization</h6>
-              </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="images/award-quality-aco.jpg" style="height: 195px"/>
+          </a>
+          <div class="caption">
+            <h6>Most Scalable: Ant Colony Optimization</h6>
           </div>
+        </div>
       </div>
+      <% end %>
 
     </div>
   </div>
