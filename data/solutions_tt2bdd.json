@@ -7,7 +7,7 @@
         "slides": "",
         "share": "",
         "docker": "",
-        "opponents": [0,1]
+        "opponents": [1,2]
     },
     {
 	      "tool" : "Fulib",
@@ -28,7 +28,7 @@
         "share": "",
         "docker": "",
 	      "pdf" : 4,
-	      "opponents": [4,5]
+	      "opponents": [3,4]
     },
     {
 	      "tool" : "MEEDUSE",
@@ -38,7 +38,7 @@
         "share": "",
         "docker": "",
 	      "pdf" : 5,
-	      "opponents": [5,6]
+	      "opponents": [4,5]
     },
     {
 	      "tool" : "NMF",
@@ -48,7 +48,7 @@
         "slides": "",
         "share": "",
         "docker": "",
-	      "opponents": [1,2]
+	      "opponents": [5,6]
     },
     {
 	      "tool" : "SCROLL",
@@ -68,6 +68,6 @@
         "share": "",
         "docker": "",
 	      "pdf" : 3,
-	      "opponents": [3,4]
+	      "opponents": [0,1]
     }
 ]
