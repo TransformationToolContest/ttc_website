@@ -1,0 +1,33 @@
+[
+    {
+	      "tool" : "Henshin",
+	      "authors" : "Daniel Strüber",
+        "scm" : "https://github.com/dstrueber/ttc2020",
+	      "pdf" : 3,
+        "slides": "",
+        "share": "",
+        "docker": "",
+        "opponents": [1,2]
+    },
+    {
+	      "tool" : "Fulib",
+	      "authors" : "Sebastian Copei and Albert Zuendorf",
+	      "pdf" : 4,
+        "slides": "",
+        "share": "",
+        "docker": "",
+        "scm" : "https://github.com/fujaba/ttc2020MigrationCaseByFulib",
+        "docker" : "",
+	      "opponents": [0,2]
+    },
+    {
+	      "tool" : "NMF",
+	      "authors" : "Georg Hinkel",
+        "scm" : "https://github.com/georghinkel/ttc2020-roundtrips",
+        "slides": "",
+        "share": "",
+        "docker": "",
+	      "pdf" : 5,
+	      "opponents": [0,1]
+    }
+]
