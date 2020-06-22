@@ -18,7 +18,7 @@
         "docker": "",
         "scm" : "https://github.com/fujaba/ttc2020MigrationCaseByFulib",
         "docker" : "",
-	      "opponents": [0,2]
+	      "opponents": [2,3]
     },
     {
 	      "tool" : "NMF",
@@ -28,6 +28,16 @@
         "share": "",
         "docker": "",
 	      "pdf" : 5,
+	      "opponents": [3,0]
+    },
+    {
+	      "tool" : "EMFSyncer",
+	      "authors" : "Artur Boronat",
+        "scm" : "https://github.com/emf-syncer/ttc20-roundtrip",
+        "slides": "",
+        "share": "",
+        "docker": "",
+	      "pdf" : 6,
 	      "opponents": [0,1]
     }
 ]
