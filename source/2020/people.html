@@ -8,8 +8,9 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <link href="stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="javascripts/all.js" type="text/javascript"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +19,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="<%= page_classes %>">
+  <body class="people">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -31,27 +32,26 @@
 
           <div class="collapse navbar-collapse">
             <ul id="navigation" class="nav navbar-nav">
-              <li id="index"><%= link_to 'News', '/index.html' %></li>
-              <!--<li class="dropdown">
+              <li id="index"><a href="./">News</a></li>
+              <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Your solutions <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                      <li><%= link_to 'Roundtrip', '/solutions_roundtrip.html' %></li>
+                      <li><a href="solutions_roundtrip.html">Roundtrip</a></li>
                   </ul>
               </li>
-              <li id="programme"><%= link_to 'Programme', '/schedule.html' %></li>-->
+              <li id="programme"><a href="schedule.html">Programme</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Calls<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><%= link_to 'Call for Cases', '/cfc.html' %></a></li>
-                  <!--<li><%= link_to 'Call for Solutions', '/cfs.html' %></li>-->
+                  <li><a href="cfc.html">Call for Cases (Closed)</a></a></li>
+                  <li><a href="cfs.html">Call for Solutions (Closed)</a></li>
                 </ul>
               </li>
-              <li id="aims_and_scope"><%= link_to 'Aims and scope', '/aims_and_scope.html' %></li>
-              <li id="people"><%= link_to 'People', '/people.html' %></li>
+              <li id="aims_and_scope"><a href="aims_and_scope.html">Aims and scope</a></li>
+              <li id="people"><a href="people.html">People</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">History <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="/2020/">TTC 2020 (virtual)</a></li>
                   <li><a href="/2019/">TTC 2019 (Eindhoven)</a></li>
 				          <li><a href="/2018/">TTC 2018 (Toulouse)</a></li>
                   <li><a href="/2017/">TTC 2017 (Marburg)</a></li>
@@ -74,7 +74,48 @@
         </div>
       </div>
 
-    <%=yield%>
+    <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Programme Committee</h3>
+      <ul class="people">
+        <li>Konstantinos Barmpis<br><em>University of York, United Kingdom</em></li>
+        <li>Artur Boronat<br><em>University of Leicester, United Kingdom</em></li>
+        <li>Juan Boubeta-Puig<br><em>University of Cádiz, Spain</em></li>
+        <li>Erwan Bousse<br><em>Vienna University of Technology, Austria</em></li>
+        <li>Antonio Garcia-Dominguez<br><em>Aston University, United Kingdom</em></li>
+        <li>Georg Hinkel<br><em>Tecan Software Competence Center, Germany</em></li>
+        <li>Akos Horvath<br><em>Budapest University of Technology and Economics, Hungary</em></li>
+        <li>Filip K&#345;ikava<br><em>Czech Technical University, CZ</em></li>
+        <li>Arend Rensink<br><em>University of Twente, The Netherlands</em></li>
+        <li>Jesús	Sánchez Cuadrado<br><em>Universidad de Murcia</em></li>
+        <li>Gergely Varro<br><em>Independent</em></li>
+        <li>Ran Wei<br><em>University of York, United Kingdom</em></li>
+      </ul>
+    </div>
+
+    <div class="col-md-4">
+      <h3>Steering Committee</h3>
+        <ul class="people">
+          <li>Richard Paige<br><em>University of York, United Kingdom</em></li>
+          <li>Arend Rensink<br><em>University of Twente, The Netherlands</em></li>
+          <li>Bernhard Schatz<br><em>Technical University Munich, Germany</em></li>
+          <li>Pieter Van Gorp<br><em>Technical University Eindhoven, The Netherlands</em></li>
+          <li>Albert Zundorf<br><em>University of Kassel, Germany</em></li>
+        </ul>
+    </div>
+
+    <div class="col-md-4">
+      <h3>Organizing Committee</h3>
+      <ul class="people">
+        <li><a href="https://www-users.cs.york.ac.uk/~agd516/">Antonio Garcia-Dominguez</a><br><em>Aston University, United Kingdom</em></li>
+        <li>Georg Hinkel<br><em>Tecan Software Competence Center, Germany</em></li>
+        <li><a href="http://fikovnik.net/">Filip K&#345;ikava</a><br><em>Czech Technical University, CZ</em></li>
+        <li><a href="https://www.cs.le.ac.uk/people/aboronat/">Artur Boronat</a><br><em>University of Leicester, United Kingdom</em></li>
+      </ul>
+  </div>
+</div>
+
 
   </body>
 </html>

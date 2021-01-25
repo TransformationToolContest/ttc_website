@@ -8,8 +8,9 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <link href="stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="javascripts/all.js" type="text/javascript"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +19,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="<%= page_classes %>">
+  <body class="aims_and_scope">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -31,27 +32,26 @@
 
           <div class="collapse navbar-collapse">
             <ul id="navigation" class="nav navbar-nav">
-              <li id="index"><%= link_to 'News', '/index.html' %></li>
-              <!--<li class="dropdown">
+              <li id="index"><a href="./">News</a></li>
+              <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Your solutions <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                      <li><%= link_to 'Roundtrip', '/solutions_roundtrip.html' %></li>
+                      <li><a href="solutions_roundtrip.html">Roundtrip</a></li>
                   </ul>
               </li>
-              <li id="programme"><%= link_to 'Programme', '/schedule.html' %></li>-->
+              <li id="programme"><a href="schedule.html">Programme</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Calls<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><%= link_to 'Call for Cases', '/cfc.html' %></a></li>
-                  <!--<li><%= link_to 'Call for Solutions', '/cfs.html' %></li>-->
+                  <li><a href="cfc.html">Call for Cases (Closed)</a></a></li>
+                  <li><a href="cfs.html">Call for Solutions (Closed)</a></li>
                 </ul>
               </li>
-              <li id="aims_and_scope"><%= link_to 'Aims and scope', '/aims_and_scope.html' %></li>
-              <li id="people"><%= link_to 'People', '/people.html' %></li>
+              <li id="aims_and_scope"><a href="aims_and_scope.html">Aims and scope</a></li>
+              <li id="people"><a href="people.html">People</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">History <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="/2020/">TTC 2020 (virtual)</a></li>
                   <li><a href="/2019/">TTC 2019 (Eindhoven)</a></li>
 				          <li><a href="/2018/">TTC 2018 (Toulouse)</a></li>
                   <li><a href="/2017/">TTC 2017 (Marburg)</a></li>
@@ -74,7 +74,37 @@
         </div>
       </div>
 
-    <%=yield%>
+    <div class="container">
+
+  <div class="row">
+    <div class="col-md-8">
+
+      <h3>Motivation</h3>
+
+      <p>Transformations of structured data such as relational data, abstract syntax trees and high-level graph-based models are cross-disciplinary at the heart of a wide range of applications. The success of transformation approaches heavily depends on the availability of expressive and efficient tools. Currently, a large variety of tools exist for different transformation approaches. However, for potential users, working in application domains where transformation techniques may be useful, it is difficult to select the right tool for their purpose. Moreover, even for most of the tool experts it is true that they know about one or two tools but little about others. Finally, the tool developers themselves can also be inspired by a more detailed understanding of related approaches.</p>
+
+      <h3>Aims</h3>
+      <p>The aim of this event is to evaluate and compare the expressiveness, the usability and the performance of transformation tools for structured data along a number of selected challenging case studies. That is, we want to learn about the pros and cons of each tool considering different applications. A deeper understanding of the relative merits of different tool features will help to further improve the existing tools, to indicate open problems, and to integrate and standardize transformation tools.</p>
+
+      <h3>Scope</h3>
+      <p>There is a wide range of application domains of transformation tools, including software engineering, business intelligence, logistics, healthcare and bioinformatics, as well as semantic web and social network analysis.</p>
+
+      <p>Specific areas of transformations relevant for the TTC include (among others):
+        <ul>
+          <li>model synchronisation and merging,</li>
+          <li>program manipulation and translation,</li>
+          <li>interoperability and migration,</li>
+          <li>model execution and simulation,</li>
+          <li>verification of models and transformations,</li>
+          <li>knowledge extraction and semantic search</li>
+        </ul>
+      </p>
+
+      <p>If you are working in one of these area or a different domain where structured data transformations are relevant, please consider submitting a case.</p>
+    </div>
+  </div>
+</div>
+
 
   </body>
 </html>
