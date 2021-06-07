@@ -49,16 +49,16 @@
 
           <% data.schedule_morning.each do |slot| %>
             <%
-              cra_solution = data.solutions_roundtrip[slot.stel]
+              cra_solution = data.solutions_ocl2psql[slot.stel]
             %>
             <tr>
               <td><strong><%=slot.time%></strong></td>
               <td>
                   <strong><%=cra_solution.tool%> - <%=cra_solution.authors%></strong><br/>
                   <em>
-                    Opponents: <%=cra_solution.opponents.map { |index| data.solutions_roundtrip[index].authors }.join(", ")%>
+                    Opponents: <%=cra_solution.opponents.map { |index| data.solutions_ocl2psql[index].authors }.join(", ")%>
                   </em><br/><br/>
-                  <a href="papers/TTC19_paper_<%=cra_solution.pdf%>.pdf">PDF Description</a> |
+                  <a href="papers/ttc21_paper_<%=cra_solution.pdf%>.pdf">PDF Description</a> |
                   <% if cra_solution.share.empty? %>
                       <% if cra_solution.docker.empty? %>
                           <strong>No SHARE or Docker demo</strong>
