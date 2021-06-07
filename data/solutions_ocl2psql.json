@@ -1,0 +1,22 @@
+[
+    {
+	   "tool" : "NMF",
+	   "authors" : "Georg Hinkel",
+       "scm" : "https://github.com/georghinkel/ttc2021-ocl2psql",
+	   "pdf" : 4,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [1]
+    },
+    {
+       "tool" : "Epsilon",
+       "authors" : "Antonio Garcia-Dominguez",
+       "scm" : "https://github.com/bluezio/ttc2021-ocl2psql/tree/epsilon",
+       "pdf" : 6,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [0]
+    }
+]

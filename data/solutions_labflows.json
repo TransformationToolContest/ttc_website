@@ -1,0 +1,32 @@
+[
+    {
+	   "tool" : "NMF",
+	   "authors" : "Georg Hinkel",
+       "scm" : "https://github.com/tecan/ttc21incrementalLabWorkflows/tree/nmf",
+	   "pdf" : 3,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [1,2]
+    },
+    {
+       "tool" : "Fulib",
+       "authors" : "Sebastian Copei, Adrian Kunz, Albert Zündorf",
+       "scm" : "https://github.com/sekassel/ttc2021fuliblabworkflow",
+       "pdf" : 5,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [0,2]
+    },
+    {
+       "tool" : "YAMTL",
+       "authors" : "Artur Boronat",
+       "scm" : "https://github.com/arturboronat/ttc21incrementalLabWorkflows",
+       "pdf" : 7,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [0,1]
+    }
+]
