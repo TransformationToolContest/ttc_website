@@ -6,3 +6,4 @@ gem "middleman-deploy", "~> 0.1.3"
 gem "compass", "~> 0.12.5"
 
 gem "bootstrap-sass", "~> 3.0.0", require: false
+gem "haml", "~> 5.2.2"
