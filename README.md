@@ -23,5 +23,4 @@ If you also wish to deploy your changes to the live website then:
 We currently serve the live website from our [Github Pages repository](https://github.com/TransformationToolContest/TransformationToolContest.github.io)
 for the TransformationToolContext organisation. It can take a few minutes for Github Pages to update.
 
-Our domain name (http://transformation-tool-contest.eu) is registered via DNSimple. 
-Antonio has the account details.
+Our domain name (http://transformation-tool-contest.eu) is owned by Antonio.
