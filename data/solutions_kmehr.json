@@ -1,0 +1,32 @@
+[
+    {
+	     "tool" : "UML-RSDS",
+	     "authors" : "Kevin Lano",
+    "scm" : "https://github.com/dwagelaar/ttc2023-kmehr2fhir/tree/main/solutions/uml-rsds",
+	     "pdf" : 5,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [2]
+    },
+    {
+       "tool" : "Epsilon",
+       "authors" : "Antonio García-Domínguez",
+        "scm" : "https://github.com/agarciadom/ttc2023-kmehr2fhir/tree/main/solutions/etl",
+       "pdf" : 10,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [0]
+    },
+    {
+       "tool" : "Incremental ATL",
+       "authors" : "Frédéric Jouault, Théo Le Calvar, Matthew Coyle",
+       "scm" : "https://github.com/dwagelaar/ttc2023-kmehr2fhir/tree/main/solutions/atol",
+       "pdf" : 11,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [1]
+    }
+]

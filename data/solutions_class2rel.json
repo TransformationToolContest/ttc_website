@@ -1,0 +1,32 @@
+[
+    {
+	     "tool" : "BXtenDSL",
+	     "authors" : "Thomas Buchmann",
+       "scm" : "https://github.com/tbuchmann/Incremental-class2relational",
+	     "pdf" : 9,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [2]
+    },
+    {
+       "tool" : "NMF",
+       "authors" : "Georg Hinkel",
+        "scm" : "https://github.com/ATL-Research/incremental-class2relational/tree/main/solutions/nmf",
+       "pdf" : 7,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [0]
+    },
+    {
+       "tool" : "Cheptre",
+       "authors" : "Frédéric Jouault, Nicolas Pouillard",
+       "scm" : "https://github.com/ATL-Research/incremental-class2relational/tree/main/solutions/cheptre",
+       "pdf" : 12,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [1]
+    }
+]

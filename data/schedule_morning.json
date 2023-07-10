@@ -1,26 +1,38 @@
 [
   {
-      "time": "11.20",
-      "psql": 0
+      "time": "9.40",
+      "containers": 0
+  },
+  {
+      "time": "9.55",
+      "containers": 1
+  },
+  {
+      "time": "10.10",
+      "containers": 2
+  },
+  {
+      "time": "11.15",
+      "kmehr": 0
   },
   {
       "time": "11.30",
-      "psql": 1
+      "kmehr": 1
   },
   {
-      "time": "11.50",
-      "lab": 0
+      "time": "11.45",
+      "kmehr": 2
   },
-  {
-      "time": "12.00",
-      "lab": 1
+    {
+      "time": "13.45",
+      "class2rel": 0
   },
-  {
-      "time": "12.10",
-      "lab": 2
+    {
+      "time": "14.00",
+      "class2rel": 1
   },
-  {
-      "time": "12.20",
-      "lab": 3
+    {
+      "time": "14.15",
+      "class2rel": 2
   }
 ]

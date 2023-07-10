@@ -1,0 +1,32 @@
+[
+    {
+	     "tool" : "BXtenDSL",
+	     "authors" : "Thomas Buchmann",
+       "scm" : "https://github.com/tbuchmann/benchmarxTTC2023/tree/main",
+	     "pdf" : 6,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [2]
+    },
+    {
+       "tool" : "NMF",
+       "authors" : "Georg Hinkel",
+       "scm" : "https://github.com/georghinkel/benchmarx/tree/ttc23",
+       "pdf" : 8,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [0]
+    },
+    {
+       "tool" : "YAMTL and EMF-Syncer",
+       "authors" : "Artur Boronat",
+       "scm" : "https://github.com/arturboronat/ttc2023-bx",
+       "pdf" : 13,
+       "slides": "",
+       "share": "",
+       "docker": "",
+       "opponents": [1]
+    }
+]
