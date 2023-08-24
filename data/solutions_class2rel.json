@@ -4,7 +4,7 @@
 	     "authors" : "Thomas Buchmann",
        "scm" : "https://github.com/tbuchmann/Incremental-class2relational",
 	     "pdf" : 9,
-       "slides": "",
+       "slides": "12-BXtendDSL-TTC2023-IncrementalClass.pdf",
        "share": "",
        "docker": "",
        "opponents": [2]
@@ -14,7 +14,7 @@
        "authors" : "Georg Hinkel",
         "scm" : "https://github.com/ATL-Research/incremental-class2relational/tree/main/solutions/nmf",
        "pdf" : 7,
-       "slides": "",
+       "slides": "13-CSandNMF.pdf",
        "share": "",
        "docker": "",
        "opponents": [0]

@@ -4,7 +4,7 @@
 	     "authors" : "Thomas Buchmann",
        "scm" : "https://github.com/tbuchmann/benchmarxTTC2023/tree/main",
 	     "pdf" : 6,
-       "slides": "",
+       "slides": "04-BXtendDSL-TTC2023-Containers2YAML.pdf",
        "share": "",
        "docker": "",
        "opponents": [2]
@@ -14,7 +14,7 @@
        "authors" : "Georg Hinkel",
        "scm" : "https://github.com/georghinkel/benchmarx/tree/ttc23",
        "pdf" : 8,
-       "slides": "",
+       "slides": "05-NMFSolution.pdf",
        "share": "",
        "docker": "",
        "opponents": [0]
@@ -24,7 +24,7 @@
        "authors" : "Artur Boronat",
        "scm" : "https://github.com/arturboronat/ttc2023-bx",
        "pdf" : 13,
-       "slides": "",
+       "slides": "06-ContainerToMiniyaml_YAMTL+EMF-Syncer.pdf",
        "share": "",
        "docker": "",
        "opponents": [1]
