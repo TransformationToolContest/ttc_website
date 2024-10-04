@@ -47,14 +47,14 @@
           <% data.schedule_morning.each do |slot| %>
             <%
               next unless slot.containers
-              solution = data.solutions_containers[slot.containers]
+              solution = data.solutions_programAbstraction[slot.containers]
             %>
             <tr>
               <td><strong><%=slot.time%></strong></td>
               <td>
                   <strong><%=solution.tool%> - <%=solution.authors%></strong><br/>
                   <em>
-                    Opponents: <%=solution.opponents.map { |index| data.solutions_containers[index].authors }.join(", ")%>
+                    Opponents: <%=solution.opponents.map { |index| data.solutions_programAbstraction[index].authors }.join(", ")%>
                   </em><br/><br/>
                   <a href="TTC_2023_paper_<%=solution.pdf%>.pdf">PDF Description</a> |
                   <br/>
@@ -92,35 +92,6 @@
             </td>
           </tr>
 
-          <% data.schedule_morning.each do |slot| %>
-            <%
-              next unless slot.kmehr
-              solution = data.solutions_kmehr[slot.kmehr]
-            %>
-            <tr>
-              <td><strong><%=slot.time%></strong></td>
-              <td>
-                  <strong><%=solution.tool%> - <%=solution.authors%></strong><br/>
-                  <em>
-                    Opponents: <%=solution.opponents.map { |index| data.solutions_kmehr[index].authors }.join(", ")%>
-                  </em><br/><br/>
-                  <a href="TTC_2023_paper_<%=solution.pdf%>.pdf">PDF Description</a> |
-                  <br/>
-                  <% if solution.scm.empty? %>
-                    <strong>No Source Code</strong>
-                  <% else %>
-                    <a href="<%=solution.scm%>">Source Code</a>
-                  <% end %>
-                  |
-                  <% if solution.slides.empty? %>
-                    No Slides
-                  <% else %>
-                    <a href="<%=solution.slides%>">Slides</a>
-                  <% end %>
-              </td>
-            </tr>
-          <% end %>
-
           <tr>
               <td>
                   <strong>12.00</strong>
@@ -150,35 +121,6 @@
                   <a href="TTC_2023_paper_4.pdf">PDF</a>
               </td>
           </tr>
-
-          <% data.schedule_morning.each do |slot| %>
-            <%
-              next unless slot.class2rel
-              solution = data.solutions_class2rel[slot.class2rel]
-            %>
-            <tr>
-              <td><strong><%=slot.time%></strong></td>
-              <td>
-                  <strong><%=solution.tool%> - <%=solution.authors%></strong><br/>
-                  <em>
-                    Opponents: <%=solution.opponents.map { |index| data.solutions_class2rel[index].authors }.join(", ")%>
-                  </em><br/><br/>
-                  <a href="TTC_2023_paper_<%=solution.pdf%>.pdf">PDF Description</a> |
-                  <br/>
-                  <% if solution.scm.empty? %>
-                    <strong>No Source Code</strong>
-                  <% else %>
-                    <a href="<%=solution.scm%>">Source Code</a>
-                  <% end %>
-                  |
-                  <% if solution.slides.empty? %>
-                    No Slides
-                  <% else %>
-                    <a href="<%=solution.slides%>">Slides</a>
-                  <% end %>
-              </td>
-            </tr>
-          <% end %>
 
           <tr>
               <td>

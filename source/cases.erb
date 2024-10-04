@@ -1,0 +1,50 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-8">
+
+      <h3>Case Overview</h3>
+
+      <p>Over the past years, many authors have contributed case studies for the TTC, creating a set of community-established benchmarks for model transformation tools. The following table provides an overview.</p>
+
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Benchmark</th>
+                <th>Year</th>
+                <th>Topic</th>
+                <th>Evaluation Criteria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% data.cases.each_with_index do |benchmark, index| %>
+                <tr>
+                    <td><strong><a href="<%= benchmark.uri %>"><%= benchmark.name %></a></strong></td>
+                    <td><%= benchmark.year %></td>
+                    <td>
+                        <ul>
+                            <% benchmark.topics.each_with_index do |top,i| %>
+                            <li><%= top %></li>
+                            <% end %>
+                        </ul>
+                    </td>
+                    <td>
+                    <ul>
+                        <li>correctness</li>
+                        <li>maintainability</li>
+                        <li>understandability</li>
+                        <li>conciseness</li>
+                        <% benchmark.evaluation.each_with_index do |criteria,i| %>
+                        <li><%= criteria %></li>
+                        <% end %>
+                    </ul>
+                    </td>
+                </tr>
+            <% end %>
+        </tbody>
+        </table>
+      </table>
+
+    </div>
+  </div>
+</div>

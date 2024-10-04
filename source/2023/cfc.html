@@ -1,4 +1,84 @@
-<div class="container">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transformation Tool Contest (TTC) 2023</title>
+
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="javascripts/all.js" type="text/javascript"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="cfc">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </div>
+
+          <div class="collapse navbar-collapse">
+            <ul id="navigation" class="nav navbar-nav">
+              <li id="index"><a href="./">News</a></li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="solutions_containers.html">Containers to MiniYAML</a></li>
+                      <li><a href="solutions_kmehr.html">KMEHR to FHIR</a></li>
+                      <li><a href="solutions_class2rel.html">Incremental Class to Relational</a></li>
+                  </ul>
+              </li>
+              <li id="programme"><a href="schedule.html">Programme</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Calls<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cfc.html">Call for Cases (Closed)</a></li>
+                  <li><a href="cfs.html">Call for Solutions (Closed)</a></li>
+                </ul>
+              </li>
+              <li id="aims_and_scope"><a href="aims_and_scope.html">Aims and scope</a></li>
+              <li id="people"><a href="people.html">People</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">History <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/2021/">TTC 2021 (virtual)</a></li>
+                  <li><a href="/2020/">TTC 2020 (virtual)</a></li>
+                  <li><a href="/2019/">TTC 2019 (Eindhoven)</a></li>
+				          <li><a href="/2018/">TTC 2018 (Toulouse)</a></li>
+                  <li><a href="/2017/">TTC 2017 (Marburg)</a></li>
+                  <li><a href="/2016/">TTC 2016 (Vienna)</a></li>
+                  <li><a href="/2015/">TTC 2015 (L'Aquila)</a></li>
+                  <li><a href="/2014/">TTC 2014 (York)</a></li>
+                  <li><a name="">TTC 2013 (Budapest) - offline</a></li>
+                  <li><a name="">TTC 2011 (Zurich) - offline</a></li>
+                  <li><a name="">TTC 2010 (Malaga) - offline</a></li>
+                  <li><a href="">GRaBaTs 2009 (Zurich) - offline</a></li>
+                  <li><a href="">GRaBaTs 2008 (Leicester) - offline</a></li>
+                  <li><a href="http://www.informatik.uni-marburg.de/~swt/agtive-contest/">AGTIVE 2007 (Kassel)</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://www.twitter.com/ttc_workshop"><img src="images/twitter-32.png" title="Twitter: @ttc_workshop"></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div>
+
+    <div class="container">
 
   <div class="row">
     <div class="col-md-8">
@@ -23,7 +103,7 @@
 
       <h4>Case submission</h4>
 
-      <p>By <strong><%=data.settings.submission%></strong>, please submit your case description in PDF format through <a href="<%=data.settings.submissionSite%>">EasyChair</a>. A previous expression of interest is not a requirement to submit a case but we encourage authors of cases to contact the TTC organizers early. The case description should include a URL to a source code repository (e.g. GitHub, Bitbucket, GitLab) that contains a reference solution and an evaluation methodology, and a basic issue tracker that solution authors may use to ask questions about the case study. For the evaluation methodology, you are welcome to draw from past case studies. If you have an idea for a case study but do not know where to start or which previous case to base it on, feel free to start a discussion with us at <code><%=data.settings.organizerEmail%></code>.</p>
+      <p>By <strong>April 14th 2023</strong>, please submit your case description in PDF format through <a href="http://easychair.org/conferences/?conf=ttc2023">EasyChair</a>. A previous expression of interest is not a requirement to submit a case but we encourage authors of cases to contact the TTC organizers early. The case description should include a URL to a source code repository (e.g. GitHub, Bitbucket, GitLab) that contains a reference solution and an evaluation methodology, and a basic issue tracker that solution authors may use to ask questions about the case study. For the evaluation methodology, you are welcome to draw from past case studies. If you have an idea for a case study but do not know where to start or which previous case to base it on, feel free to start a discussion with us at <code>ttc23 AT easychair DOT org</code>.</p>
 
       <p>The case description should be in the ACM acmart LaTeX document class (see <a href="http://www.sigplan.org/Resources/Author/">here</a> and <a href="https://www.acm.org/publications/proceedings-template">here</a>), using the "sigconf" style and with the "review" option enabled, and not exceeding 10 pages (excluding references and appendices).</p>
 
@@ -66,16 +146,20 @@
 
       <p>This feedback is passed on to case authors to improve the case with the assistance of the organization committee.</p>
 
-      <p><strong>Phase 3</strong>: Call for solutions (next edition of TTC). All those who like to participate in the contest will be asked to choose one or more case studies, take their favorite transformation tool and submit their solutions. A separate call for solutions will be distributed <strong>in the next TTC edition</strong>, after the cases have been selected. A solution consists both of a technical short paper describing the solution and of accompanying software artifacts in a Git repository (usually a clone of the repository provided for the case). For a solution to be eligible for an award, it must not contain any member of either the Organization Committee or the Steering Committee. However, members of the Organization Committee and of the Steering Committee are welcome to contribute solutions, which will undergo the rest of the contest stages below together with the other solutions.</p>
+      <p><strong>Phase 3</strong>: Call for solutions. All those who like to participate in the contest will be asked to choose one or more case studies, take their favorite transformation tool and submit their solutions. A separate call for solutions will be distributed, after the cases have been selected. A solution consists both of a technical short paper describing the solution and of accompanying software artifacts in a Git repository (usually a clone of the repository provided for the case). For a solution to be eligible for an award, it must not contain any member of either the Organization Committee or the Steering Committee. However, members of the Organization Committee and of the Steering Committee are welcome to contribute solutions, which will undergo the rest of the contest stages below together with the other solutions.</p>
 
       <p><strong>Phase 4</strong>: Open peer review. The solution reviewing before the workshop will be done by other solution submitters. All solution submitters have to review three other solutions to the case that they have addressed. These reviews will not be anonymous, since these reviewers ideally will also be the opponents at the workshop. The purpose of the peer reviewing is that the participants get as much insight into the competitor's solutions as possible and also to raise potential problems. Case submitters should be available at this stage to resolve conflicting interpretations (if any) about the case description.</p>
 
-      <p><strong>Phase 5</strong>: Proceedings. Solution proponents improve the short paper with the feedback received during the open peer reviews. Such papers will be reviewed by programme committee members selecting which solutions are eligible for the journal article of each case, according to the corresponding eligilibility criteria. All papers, including cases and solutions, will appear in the proceedings.</p>
+      <p><strong>Phase 5</strong>: Contest. The solutions submitted for each case will be presented by their proponents. Case submitters should have evaluated independently the various presented solutions according to the spreadsheet, and should be present during the break to discuss the final awards to be given. For more details (such as example cases and solutions from previous editions), please consult the other sections of the TTC website.</p>
 
-      <p><strong>Phase 6</strong>: Contest. The solutions submitted for each case will be presented by their proponents. Case submitters should have evaluated independently the various presented solutions and should be present during the break to discuss the final awards to be given. Awards are only given for cases submitted to the last edition of the TTC. For more details (such as example cases and solutions from previous editions), please consult the other sections of the TTC website.</p>
+      <p><strong>Phase 6</strong>: Post-proceedings. Solution proponents improve the short paper with the feedback received during the workshop. Such papers will be reviewed by programme committee members selecting which solutions are eligible for the journal article of each case, according to the corresponding eligilibility criteria. All papers, including cases and solutions, will appear in the post-proceedings.</p>
 
       <p><strong>Phase 7</strong>: Journal article. Case authors prepare journal articles with eligible solutions.</p>
 
     </div>
   </div>
 </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,237 @@
+[
+    {
+        "name": "FIXML to Java, C# and C++",
+        "uri": "2014/solutions_fixml.html",
+        "year": "2014",
+        "domain": "finance",
+        "topics": [
+            "transformation"
+        ],
+        "evaluation": []
+    },
+    {
+        "name": "Train Benchmark",
+        "uri": "2015/solutions_train.html",
+        "year": "2015",
+        "domain": "railway",
+        "topics": [
+            "incremental change propagation"
+        ],
+        "evaluation": [
+            "initial runtime",
+            "change propagation time",
+            "scalability"
+        ]
+    } ,
+    {
+        "name": "Class Responsibility Assignment",
+        "uri": "2016/solutions_cra.html",
+        "year": "2016",
+        "domain": "software engineering",
+        "topics": [
+            "search-based optimization"
+        ],
+        "evaluation": [
+            "quality of results",
+            "runtime"
+        ]
+    },
+    {
+        "name": "Dataflow",
+        "uri": "2016/livecontest.html",
+        "year": "2016",
+        "domain": "software engineering",
+        "topics": [
+            "transformation",
+            "incremental change propagation"
+        ],
+        "evaluation": [
+            "initial runtime",
+            "change propagation time",
+            "scalability"
+        ]
+    },
+    {
+        "name": "Smart Grids",
+        "uri": "2017/solutions_smartGrid.html",
+        "year": "2017",
+        "domain": "smart grids",
+        "topics": [
+            "transformation",
+            "incremental change propagation"
+        ],
+        "evaluation": [
+            "initial runtime",
+            "change propagation time",
+            "scalability"
+        ]
+    },
+    {
+        "name": "Families to Persons",
+        "uri": "2017/solutions_familiesToPersons.html",
+        "year": "2017",
+        "domain": "example",
+        "topics": [
+            "bidirectional transformation",
+            "incremental change propagation"
+        ],
+        "evaluation": [
+            "initial runtime",
+            "change propagation time",
+            "scalability"
+        ]
+    },
+    {
+        "name": "State Elimination",
+        "uri": "2017/solutions_stateElimination.html",
+        "year": "2017",
+        "domain": "software engineering",
+        "topics": [
+            "destructive transformation"
+        ],
+        "evaluation": [
+            "runtime",
+            "scalability"
+        ]
+    },
+    {
+        "name": "Transformation Reuse",
+        "uri": "2017/solutions_livecontest.html",
+        "year": "2017",
+        "domain": "software engineering",
+        "topics": [
+            "reuse"
+        ],
+        "evaluation": [
+            "runtime",
+            "reuse"
+        ]
+    },
+    {
+        "name": "Quality-based Software Selection and Hardware-Mapping",
+        "uri": "2018/solutions_qualityBased.html",
+        "year": "2018",
+        "domain": "systems engineering",
+        "topics": [
+            "search-based optimization"
+        ],
+        "evaluation": [
+            "runtime",
+            "quality of results",
+            "scalability"
+        ]
+    },
+    {
+        "name": "Social Media",
+        "uri": "2018/solutions_liveContest.html",
+        "year": "2018",
+        "domain": "social media",
+        "topics": [
+            "incremental change propagation"
+        ],
+        "evaluation": [
+            "initial runtime",
+            "change propagation time"
+        ]
+    },
+    {
+        "name": "Truth tables to BDD",
+        "uri": "2019/solutions_tt2bdd.html",
+        "year": "2019",
+        "domain": "example",
+        "topics": [
+            "open to any research direction"
+        ],
+        "evaluation": []
+    },
+    {
+        "name": "BibtexXML to Docbook",
+        "uri": "2019/solutions_liveContest.html",
+        "year": "2019",
+        "domain": "example",
+        "topics": [
+            "bidirectional transformation"
+        ],
+        "evaluation": []
+    },
+    {
+        "name": "Roundtrip",
+        "uri": "2020/solutions_roundtrip.html",
+        "year": "2020",
+        "domain": "versioning",
+        "topics": [
+            "bidirectional transformation"
+        ],
+        "evaluation": [
+            "reuse"
+        ]
+    },
+    {
+        "name": "Incremental Workflows",
+        "uri": "2021/solutions_iworkflows.html",
+        "year": "2021",
+        "domain": "lab automation",
+        "topics": [
+            "incremental change propagation"
+        ],
+        "evaluation": [
+            "initial runtime",
+            "change propagation time",
+            "scalability"
+        ]
+    },
+    {
+        "name": "OCL2PSQL",
+        "uri": "2021/solutions_ocl2psql.html",
+        "year": "2021",
+        "domain": "database queries",
+        "topics": [
+            "transformation"
+        ],
+        "evaluation": [
+            "runtime",
+            "quality of results"
+        ]
+    },
+    {
+        "name": "Containers to MiniYAML",
+        "uri": "2023/solutions_containers.html",
+        "year": "2023",
+        "domain": "deployment",
+        "topics": [
+            "bidirectional transformation",
+            "incremental change propagation"
+        ],
+        "evaluation": [
+            "scalability",
+            "initial runtime",
+            "change propagation time"
+        ]
+    },
+    {
+        "name": "KMEHR to FHIR",
+        "uri": "2023/solutions_kmehr.html",
+        "year": "2023",
+        "domain": "healthcare",
+        "topics": [
+            "bidirectional transformation"
+        ],
+        "evaluation": [
+            "runtime",
+            "scalability"
+        ]
+    },
+    {
+        "name": "Incremental Class into Relational",
+        "uri": "2023/solutions_class2rel.html",
+        "year": "2023",
+        "domain": "example",
+        "topics": [
+            "incremental change propagation"
+        ],
+        "evaluation": [
+            "initial runtime",
+            "change propagation time"
+        ]
+    }
+]

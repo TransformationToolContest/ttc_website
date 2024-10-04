@@ -6,9 +6,9 @@
       <h3>Call for Solutions</h3>
 
       <p>
-        The 2023 Transformation Tool Contest (TTC) seeks your own
+        The 2025 Transformation Tool Contest (TTC) seeks your own
         spins of four interesting model transformation problems. The
-        deadline for solution descriptions is <s>29th June 2023</s><strong>6th July 2023</strong>,
+        deadline for solution descriptions is <strong><%=data.settings.submission%></strong>,
         immediately followed by a round of open peer reviewing. As in
         previous editions, solution descriptions will be published in
         a post-proceedings volume, and lead to continued
@@ -27,7 +27,7 @@
         as GraBaTs 2008 and 2009 contests, and the TTC 2010, 2011, 2013--2021 contests).
         For the eighth time, the contest is co-located with several leading
         software engineering conferences as part of the
-        <a href="https://conf.researchr.org/home/staf-2023">Software Technologies: Applications and Foundations</a>
+        <a href="<%=data.settings.stafLink%>">Software Technologies: Applications and Foundations</a>
         (STAF) federation. Teams from the major international research groups
         in the development and use of transformation tools are expected to
       participate in the TTC again.</p>
@@ -39,10 +39,6 @@
       <ul>
         <li><a href="TTC_2023_paper_1.pdf" target="_blank">Program abstraction by transformation: Abstraction of Visual
         Basic to UML</a> (<a href="https://doi.org/10.5281/zenodo.7801435">Resources</a>).</li>
-        <li><a href="TTC_2023_paper_2.pdf" target="_blank">The TTC 2023 KMEHR to FHIR Case</a> (<a href="https://github.com/dwagelaar/ttc2023-kmehr2fhir">Resources</a>).</li>
-        <li><a href="TTC_2023_paper_3-v2.pdf" target="_blank">Asymmetric and Directed Bidirectional Transformation for
-            Container Orchestrations</a> (updated on May 17th, <a href="https://github.com/agarciadom/benchmarx/tree/main/examples/containerstominiyaml">Resources</a>).</li>
-        <li><a href="TTC_2023_paper_4.pdf" target="_blank">Incremental MTL vs. GPLs: Class into Relational Database Schema</a> (<a href="https://github.com/ATL-Research/incremental-class2relational">Resources</a>).</li>
       </ul>
 
       <p>The case description, supporting resources, and discussion between solution developers are hosted at the source code repositories linked to above.</p>
@@ -53,34 +49,24 @@
         solution (i.e., programs, models, etc.). The paper should include a description of the chosen case study variant (if any) and a presentation of the chosen solution, including a discussion of design decisions.
         Examples can be explored at the <a href="http://www.transformation-tool-contest.eu/2021/">TTC 2021 website</a>.</p>
 
-        <p>Solutions should be submitted via <a href="https://easychair.org/conferences/?conf=ttc2023">Easychair</a> by <s>29th June 2023</s> <strong>6 July 2023</strong>. Before the same deadline, each case study solution (tool,
+        <p>Solutions should be submitted via <a href="<%=data.settings.submissionSite%>">Easychair</a> by <strong><%=data.settings.submission%></strong>. Before the same deadline, each case study solution (tool,
           project files, documentation) should be made available for review and demonstration via a public version control repository (e.g. on Github or Bitbucket). <a href="https://hub.docker.com/">Docker Hub</a> images would be highly appreciated as well.</p>
 
-          <p>Immediately after the submission deadline, please note solution developers will be asked to participate in a round of <em>open review</em> of other solutions. Therefore, we ask that all solution developers are available in the period <strong>29th June to 13th July 2023</strong> to participate in these discussions.</p>
-
-            <%#
-            <!-- Artur: Constraints on solution papers? -->
-            <p>Please note that solutions that are ultimately published in the post-proceedings will not exceed 5 pages and will be formatted using the <a href=http://ceur-ws.org/Vol-XXX/samplestyles/?"">CEUR-WS style</a>. There are no such page limit or formatting restrictions on the  initial descriptions of a solution (i.e., the solutions submitted on the 1st of June).</p> /*
-            %>
-
-            <p>Besides the presentations of the submitted solutions, we will have an online event where solution authors will be asked to present their solutions in front of a bigger audience and answer any questions afterwards. The date of this event will be defined together with solution authors.</p>
+          <p>Immediately after the submission deadline, please note solution developers will be asked to participate in a round of <em>open review</em> of other solutions. Therefore, we ask that all solution developers are available in the period <strong><%= data.settings.openPeerReviewPeriod %></strong> to participate in these discussions.</p>
 
             <h4>Publication Procedure</h4>
 
-            <p>For TTC 2023 there will be several publication opportunities:</p>
+            <p>For TTC 2025 there will be several publication opportunities:</p>
 
             <ul>
-              <li>The informal pre-proceedings will appear on the TTC website. They
-                contain the descriptions of the accepted cases and all the solution
-              papers.</li>
-              <li>After the contest there will be more formal contest proceedings.
+              <li>There will be formal contest proceedings.
                 Solution submitters have to consider and address the opponents' statements.
                 The resulting solution papers will be reviewed by the TTC program
                 committee. A selection of revised solution papers together with the
               case descriptions will be published in the contest proceedings.</li>
-              <li>In TTC 2023, cases will be reviewed by a steering committee, judging
+              <li>Most cases were reviewed by a steering committee, judging
                 the suitable publication venues, significance of the problem statement,
-                and appropriateness of the evaluation methodology. This feedback will be
+                and appropriateness of the evaluation methodology. This feedback was
                 passed on to case authors to allow the case to be improved, with the aim
                 to facilitate a thorough comparison of the state-of-the-art in model
                 transformation, which may be submitted to one of the following journals
